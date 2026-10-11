@@ -78,28 +78,64 @@ artista con nombre — **más cerca del primero mientras no tenga agenda**. Esto
 no es pesimismo: es la condición de partida que cambia en cuanto haya seis u
 ocho fechas hechas y grabadas.
 
-## 15.3 El suelo: por debajo de aquí se trabaja a pérdida
+## 15.3 El suelo: dos cifras distintas que conviene no confundir
 
-Antes de fijar precios hay que saber qué cuesta salir de casa. Estimación de
-costes directos del **formato A**, con desplazamiento, alojamiento y dietas a
-cargo del promotor:
+Honorarios reales confirmados por el artista: **100 € por bailarina, 150 € el
+teclista, 100 € el road manager.**
 
-| Concepto | Coste estimado |
-|---|---|
-| 4 bailarinas | 800 € *(200 € cada una)* |
-| Teclista | 250 € |
-| Road manager | 200 € |
-| Furgoneta y combustible | 300 € |
-| Vestuario, producción y mantenimiento | 100 € |
-| **Total de costes directos** | **~1.650 €** |
+### Costes directos por formato
 
-Con un caché de 2.500 €, a MIKAN le quedan unos 850 € brutos por un show de
-siete personas — antes de impuestos y de cualquier imprevisto. **Ese es el
-punto en el que el espectáculo deja de tener sentido económico.**
+Con desplazamiento, alojamiento y dietas a cargo del promotor:
 
-> **Suelo del formato A: 3.500 €.** Por debajo, o se rebaja al formato B, o se
-> dice que no. Un caché por debajo del coste no es una oportunidad: es pagar
-> por trabajar.
+| Concepto | **A** (7 pax) | **B** (4 pax) | **C** (2 pax) |
+|---|---|---|---|
+| Bailarinas | 400 € *(4 × 100)* | 200 € *(2 × 100)* | — |
+| Teclista | 150 € | — | — |
+| Road manager | 100 € | 100 € | 100 € |
+| Vehículo y combustible | 300 € | 200 € | 150 € |
+| Vestuario, producción y mantenimiento | 100 € | 50 € | 50 € |
+| **Punto de equilibrio** | **1.050 €** | **550 €** | **300 €** |
+
+### Punto de equilibrio no es lo mismo que suelo de negociación
+
+Son dos cifras distintas y confundirlas es un error caro:
+
+- El **punto de equilibrio** es donde se deja de perder dinero. Para el formato
+  completo, **1.050 €**.
+- El **suelo de negociación** es el precio por debajo del cual aceptar hace más
+  daño que el ingreso que aporta, porque fija una referencia a la baja con ese
+  contratante y con los que hablen con él.
+
+| Formato | Equilibrio | **Suelo de negociación** | Lo que queda al artista en el suelo |
+|---|---|---|---|
+| **A** · Show completo | 1.050 € | **2.800 €** | ~1.750 € brutos |
+| **B** · Show reducido | 550 € | **1.200 €** | ~650 € brutos |
+| **C** · Formato mínimo | 300 € | **1.000 €** | ~700 € brutos |
+
+Y la buena noticia: con estos costes, **el margen del formato completo es mejor
+de lo estimado**. A 6.000 € de caché objetivo, quedan unos **4.950 € brutos**
+después de pagar al equipo. Eso ya no es un bolo: es un negocio.
+
+### Dos avisos sobre la estructura de costes
+
+**1. Los ensayos no están contabilizados.** Un show con cuatro bailarinas y
+teclista necesita ensayos antes de cada tanda de fechas. Si se pagan aparte,
+hay que sumarlos; si no se pagan, se están absorbiendo como trabajo no
+retribuido del equipo, que es sostenible una temporada y no dos. Conviene
+decidirlo y escribirlo.
+
+**2. Cien euros por bailarina está por debajo de mercado.** En España, una
+bailarina profesional para un show con ensayos se mueve entre 150 y 250 € por
+actuación. No es un reproche: con la agenda actual, no hay margen para más. Pero
+sí es el **riesgo estructural del formato completo**: el día que a cualquiera de
+las cuatro le salga algo mejor pagado, se va, y el espectáculo de siete personas
+deja de existir.
+
+La forma de retener al equipo en esta etapa **no es subir el caché por fecha:
+es darles volumen**. Cuatro bailarinas a 100 € con dos bolos al año son 200
+euros y nadie se queda por eso. Con quince fechas son 1.500, y eso ya compite.
+Es otro argumento —el más humano— para que las propuestas de carnaval salgan
+esta semana.
 
 ## 15.4 Tabla de cachés recomendada
 
@@ -108,12 +144,12 @@ que van siempre aparte.
 
 | Circuito | Formato | Mínimo | Objetivo | Techo inicial |
 |---|---|---|---|---|
-| **Carnaval · escenario principal** | A | 4.000 € | **6.000 €** | 8.000 € |
-| **Carnaval · gala** | C | 1.500 € | **2.500 €** | 4.000 € |
-| **Fiestas patronales y ferias** | A | 4.000 € | **6.500 €** | 9.000 € |
-| **Orgullo · escenario principal** | A | 3.500 € | **5.000 €** | 7.000 € |
+| **Carnaval · escenario principal** | A | 2.800 € | **6.000 €** | 8.000 € |
+| **Carnaval · gala** | C | 1.000 € | **2.500 €** | 4.000 € |
+| **Fiestas patronales y ferias** | A | 2.800 € | **6.500 €** | 9.000 € |
+| **Orgullo · escenario principal** | A | 2.800 € | **5.000 €** | 7.000 € |
 | **Orgullo · club o escenario secundario** | B | 1.200 € | **2.000 €** | 3.000 € |
-| **Teatro o auditorio municipal** | A o B | 3.000 € | **4.000 €** | 5.500 € |
+| **Teatro o auditorio municipal** | A o B | 2.800 € | **4.000 €** | 5.500 € |
 | **Festival de ciudad** | B | 1.500 € | **2.500 €** | 4.000 € |
 | **Sala con taquilla** | B | 300 € garantía + 70 % | — | — |
 | **Evento privado o de marca** | B o C | 2.000 € | **3.000 €** | 4.500 € |

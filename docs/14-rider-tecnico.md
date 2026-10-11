@@ -85,6 +85,9 @@ Por eso este rider:
 En los tres formatos, **los gastos de viaje, desplazamiento, alojamiento y
 dietas corren a cargo del promotor** y no están incluidos en el caché.
 
+El equipo lo componen bailarinas, teclista y road manager, todos ellos
+contratados por el artista. El promotor no gestiona ni retribuye a ninguno.
+
 ---
 
 ## 14.3 FORMATO A · Show completo *(7 personas)*
