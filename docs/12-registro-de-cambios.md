@@ -125,7 +125,82 @@ Instagram siguen intactos con su `https://`.
 | Sección de **fechas** | Pendiente | Ídem. |
 | Vídeos de **directo en Videografía** | Pendiente | Añadir las tres piezas y la gala de RTVE. |
 
-## 12.5 Recomendación derivada de lo anterior
+## 12.5 reCAPTCHA del formulario de contacto *(ya funcionaba, no tocar)*
+
+Verificado el 11/10/2026. Conclusión: **el reCAPTCHA está bien configurado y no
+hay que cambiar nada.** Queda documentado porque la configuración es poco
+habitual y es fácil "arreglarla" rompiéndola.
+
+**Configuración real:**
+- Campo reCAPTCHA de Elementor en el formulario de la página de contacto
+  (post 2372, widget `afcefbc`), de tipo **v2 casilla**.
+- Clave de sitio procedente de la consola de **reCAPTCHA Enterprise**.
+- Elementor carga la API **clásica** (`recaptcha/api.js`) y renderiza el widget
+  correctamente: el iframe de Google carga sin error de clave inválida.
+- La clave secreta asociada **es válida para el método clásico**: una llamada
+  directa a `siteverify` con ella devuelve `invalid-input-response` (se queja
+  del token, no del secreto).
+- Prueba de extremo a extremo: un envío con token falso es **rechazado** por el
+  servidor con `The response parameter is invalid or malformed.`
+
+Es decir, la verificación en servidor está operativa.
+
+**Por qué funciona aunque parezca que no debería:** las claves Enterprise de
+tipo casilla exponen un secreto compatible con el endpoint clásico
+`siteverify`. La documentación de Elementor dice que su integración no soporta
+Enterprise, y es cierto para el flujo de Enterprise propiamente dicho (ID de
+proyecto más clave de API y `CreateAssessment`), pero el par clave de sitio más
+secreto legado sí atraviesa el camino clásico.
+
+**Qué NO hacer:**
+- No pegar el fragmento de `enterprise.js` que ofrece la documentación de
+  Google. Duplicaría el captcha, cargaría dos API a la vez y probablemente
+  rompería el que funciona. Ese fragmento es para quien programa su propio
+  backend: por sí solo genera un token y no bloquea nada.
+- No cambiar a v3 sin motivo. Sería algo mejor en experiencia de usuario
+  —invisible, sin casilla que resolver, menos abandono en un formulario de
+  contratación— pero no justifica el riesgo de romper algo operativo.
+
+**Lo único pendiente de comprobar:** que el correo del formulario **llegue**. La
+validación funciona, pero la entrega depende del plugin de SMTP instalado, que
+es donde se pierden los avisos de formulario con más frecuencia que en el
+captcha. Requiere un envío real resolviendo la casilla, así que solo lo puede
+hacer una persona.
+
+## 12.6 Pendiente: barrido de los 21 bloques de iconos
+
+Cada página tiene **tres** bloques de iconos sociales, 21 en total, con
+contenido divergente entre sí. Estado y cambios acordados:
+
+| Cambio | Alcance |
+|---|---|
+| Spotify al perfil de artista `open.spotify.com/artist/3WZitLJsCzDpVGtqTD4M0J` | Roto (apunta a un álbum) en 15 de los 21 |
+| Apple Music fuera | Incluido el redirector de YouTube caducado que queda en la portada |
+| TikTok en el tercer bloque de cada página | Falta en 7 de los 21 |
+| Twitter/X fuera | Presente en los 21 |
+
+Resultado buscado: fila idéntica en las siete páginas —YouTube, Spotify,
+Instagram, Facebook, TikTok y correo—, sin enlaces rotos ni perfiles
+inactivos.
+
+**No aplicado.** La automatización fue denegada por el control de permisos del
+entorno, por tratarse de un borrado de elementos en un sitio en producción.
+
+**Vía manual más rápida que editar 21 bloques uno a uno:** dejar **un** bloque
+perfecto, copiarlo con clic derecho → Copiar, y pegar encima de los otros 20 con
+Pegar estilo o reemplazando el widget. Elementor conserva la estructura y asigna
+identificadores nuevos.
+
+**Vía estructural, la que de verdad conviene:** convertir cabecera y pie en
+**plantillas globales** de Elementor. Hoy el mismo bloque vive duplicado 21
+veces, y la navegación secundaria está además escrita a mano en HTML dentro de
+widgets de texto. Eso convierte cualquier cambio de un dato de contacto o de un
+enlace en 21 ediciones, y es el mecanismo exacto por el que los `mailto`
+llevaban rotos mucho tiempo y por el que el cambio de TikTok revirtió a medias
+la corrección de Spotify. Pasar a plantilla única es media hora y elimina esta
+clase de error de forma permanente.
+
+## 12.7 Recomendación derivada de lo anterior
 
 Dos bloques que deberían ser plantillas únicas están duplicados en las siete
 páginas: el de contacto y la navegación secundaria de la cabecera, esta última
