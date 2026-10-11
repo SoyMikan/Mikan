@@ -179,6 +179,9 @@ es la diferencia entre detectar un corte en treinta días o en nueve meses.
   widget `afcefbc`). **Aplicado y verificado.**
 - El widget de error ha desaparecido y **el formulario vuelve a enviar**:
   un envío real devuelve `success: true`.
+- **Entrega de correo confirmada**: el mensaje de prueba llegó a la bandeja del
+  destinatario. El plugin de SMTP funciona, de modo que el canal está operativo
+  de extremo a extremo: envío, validación y entrega.
 - **El captcha está inactivo**: no carga ningún script de reCAPTCHA porque no
   hay claves en la sección v3 de Elementor. El formulario está, por tanto, sin
   protección antispam, lo que sigue siendo preferible a estar bloqueado.
@@ -190,8 +193,7 @@ es la diferencia entre detectar un corte en treinta días o en nueve meses.
    v2, y confundirlas es con toda probabilidad el origen del fallo original.
    El intento automatizado no localizó los campos de esa pantalla, por los
    problemas de carga del panel ya conocidos; es más rápido hacerlo a mano.
-2. **Confirmar que el correo llega**, incluida la carpeta de spam. La validación
-   y el envío funcionan, pero la entrega depende del plugin de SMTP instalado.
+2. ~~Confirmar que el correo llega.~~ **Hecho:** el mensaje de prueba llegó.
 3. Si con esas claves fallara, crear claves nuevas en la consola **clásica**
    (`google.com/recaptcha/admin`), tipo v3, con `mikan.es` **y**
    `www.mikan.es` en la lista de dominios.
