@@ -125,47 +125,76 @@ Instagram siguen intactos con su `https://`.
 | Sección de **fechas** | Pendiente | Ídem. |
 | Vídeos de **directo en Videografía** | Pendiente | Añadir las tres piezas y la gala de RTVE. |
 
-## 12.5 reCAPTCHA del formulario de contacto *(ya funcionaba, no tocar)*
+## 12.5 reCAPTCHA del formulario de contacto *(estaba roto, parcialmente arreglado)*
 
-Verificado el 11/10/2026. Conclusión: **el reCAPTCHA está bien configurado y no
-hay que cambiar nada.** Queda documentado porque la configuración es poco
-habitual y es fácil "arreglarla" rompiéndola.
+**Aviso:** una versión anterior de este documento afirmaba que el reCAPTCHA
+funcionaba y que no debía tocarse. **Era incorrecto.** El formulario llevaba
+roto un tiempo indeterminado. Se deja constancia del error de diagnóstico
+porque la forma de equivocarse es instructiva.
 
-**Configuración real:**
-- Campo reCAPTCHA de Elementor en el formulario de la página de contacto
-  (post 2372, widget `afcefbc`), de tipo **v2 casilla**.
-- Clave de sitio procedente de la consola de **reCAPTCHA Enterprise**.
-- Elementor carga la API **clásica** (`recaptcha/api.js`) y renderiza el widget
-  correctamente: el iframe de Google carga sin error de clave inválida.
-- La clave secreta asociada **es válida para el método clásico**: una llamada
-  directa a `siteverify` con ella devuelve `invalid-input-response` (se queja
-  del token, no del secreto).
-- Prueba de extremo a extremo: un envío con token falso es **rechazado** por el
-  servidor con `The response parameter is invalid or malformed.`
+### El fallo
 
-Es decir, la verificación en servidor está operativa.
+El campo estaba configurado en Elementor como **v2 casilla**, pero la clave de
+sitio es de tipo **basado en puntuación**. Google carga el widget, detecta el
+desajuste de tipo y, en lugar de la casilla, muestra dentro del iframe:
 
-**Por qué funciona aunque parezca que no debería:** las claves Enterprise de
-tipo casilla exponen un secreto compatible con el endpoint clásico
-`siteverify`. La documentación de Elementor dice que su integración no soporta
-Enterprise, y es cierto para el flujo de Enterprise propiamente dicho (ID de
-proyecto más clave de API y `CreateAssessment`), pero el par clave de sitio más
-secreto legado sí atraviesa el camino clásico.
+> **ERROR for site owner: Invalid key type**
 
-**Qué NO hacer:**
-- No pegar el fragmento de `enterprise.js` que ofrece la documentación de
-  Google. Duplicaría el captcha, cargaría dos API a la vez y probablemente
-  rompería el que funciona. Ese fragmento es para quien programa su propio
-  backend: por sí solo genera un token y no bloquea nada.
-- No cambiar a v3 sin motivo. Sería algo mejor en experiencia de usuario
-  —invisible, sin casilla que resolver, menos abandono en un formulario de
-  contratación— pero no justifica el riesgo de romper algo operativo.
+Sin casilla no hay token, y sin token Elementor rechaza el envío. **Nadie podía
+enviar el formulario.**
 
-**Lo único pendiente de comprobar:** que el correo del formulario **llegue**. La
-validación funciona, pero la entrega depende del plugin de SMTP instalado, que
-es donde se pierden los avisos de formulario con más frecuencia que en el
-captcha. Requiere un envío real resolviendo la casilla, así que solo lo puede
-hacer una persona.
+### Por qué el diagnóstico tardó tres intentos
+
+Todas las señales indirectas daban verde y aun así la conclusión era falsa:
+
+| Señal comprobada | Resultado | Por qué engañaba |
+|---|---|---|
+| Peticiones de red a Google | Todas 200 | El widget carga bien; el error es de contenido |
+| Dimensiones del contenedor | 304×78, normal | El error ocupa el mismo espacio que la casilla |
+| Consola del navegador | Sin errores | Google no registra este fallo en consola |
+| Clave secreta contra `siteverify` | `invalid-input-response` | El secreto es válido; falla el tipo de clave |
+| Envío con token falso | Rechazado correctamente | La validación funciona, el problema es anterior |
+
+El error vive **dentro de un iframe de otro dominio** y no se puede leer por
+código. Solo se ve con una **captura de pantalla** del widget.
+
+**Lección de método:** ante un componente de terceros embebido en iframe, la
+captura de pantalla va primero, no al final. Las señales indirectas pueden ser
+todas correctas y la conclusión falsa, porque describen capas distintas de
+aquella donde está el fallo.
+
+### Lección operativa para el proyecto
+
+Un formulario de contratación que no envía es un **fallo silencioso**: no avisa
+al visitante de forma evidente, no notifica a nadie y no deja rastro. Igual que
+los `mailto` mal formados. Es la segunda vez en el mismo sitio.
+
+**Recomendación: probar los canales de contacto una vez al mes.** Un envío por
+el formulario y un correo a contratación desde una cuenta ajena. Dos minutos, y
+es la diferencia entre detectar un corte en treinta días o en nueve meses.
+
+### Estado actual
+
+- Campo del formulario cambiado de `recaptcha` a `recaptcha_v3` (post 2372,
+  widget `afcefbc`). **Aplicado y verificado.**
+- El widget de error ha desaparecido y **el formulario vuelve a enviar**:
+  un envío real devuelve `success: true`.
+- **El captcha está inactivo**: no carga ningún script de reCAPTCHA porque no
+  hay claves en la sección v3 de Elementor. El formulario está, por tanto, sin
+  protección antispam, lo que sigue siendo preferible a estar bloqueado.
+
+### Pendiente
+
+1. **Pegar clave de sitio y secreto en Elementor → Ajustes → Integraciones →
+   reCAPTCHA V3.** No en la sección «reCAPTCHA» que está justo encima: esa es la
+   v2, y confundirlas es con toda probabilidad el origen del fallo original.
+   El intento automatizado no localizó los campos de esa pantalla, por los
+   problemas de carga del panel ya conocidos; es más rápido hacerlo a mano.
+2. **Confirmar que el correo llega**, incluida la carpeta de spam. La validación
+   y el envío funcionan, pero la entrega depende del plugin de SMTP instalado.
+3. Si con esas claves fallara, crear claves nuevas en la consola **clásica**
+   (`google.com/recaptcha/admin`), tipo v3, con `mikan.es` **y**
+   `www.mikan.es` en la lista de dominios.
 
 ## 12.6 Pendiente: barrido de los 21 bloques de iconos
 
