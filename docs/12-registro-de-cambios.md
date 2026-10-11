@@ -173,30 +173,51 @@ los `mailto` mal formados. Es la segunda vez en el mismo sitio.
 el formulario y un correo a contratación desde una cuenta ajena. Dos minutos, y
 es la diferencia entre detectar un corte en treinta días o en nueve meses.
 
-### Estado actual
+### El arreglo aplicado
 
-- Campo del formulario cambiado de `recaptcha` a `recaptcha_v3` (post 2372,
-  widget `afcefbc`). **Aplicado y verificado.**
-- El widget de error ha desaparecido y **el formulario vuelve a enviar**:
-  un envío real devuelve `success: true`.
-- **Entrega de correo confirmada**: el mensaje de prueba llegó a la bandeja del
-  destinatario. El plugin de SMTP funciona, de modo que el canal está operativo
-  de extremo a extremo: envío, validación y entrega.
-- **El captcha está inactivo**: no carga ningún script de reCAPTCHA porque no
-  hay claves en la sección v3 de Elementor. El formulario está, por tanto, sin
-  protección antispam, lo que sigue siendo preferible a estar bloqueado.
+La pantalla de ajustes de Elementor tiene **dos pares de campos de claves**:
 
-### Pendiente
+```
+elementor_pro_recaptcha_site_key        <- v2
+elementor_pro_recaptcha_secret_key      <- v2
+elementor_pro_recaptcha_v3_site_key     <- v3
+elementor_pro_recaptcha_v3_secret_key   <- v3
+elementor_pro_recaptcha_v3_threshold
+```
 
-1. **Pegar clave de sitio y secreto en Elementor → Ajustes → Integraciones →
-   reCAPTCHA V3.** No en la sección «reCAPTCHA» que está justo encima: esa es la
-   v2, y confundirlas es con toda probabilidad el origen del fallo original.
-   El intento automatizado no localizó los campos de esa pantalla, por los
-   problemas de carga del panel ya conocidos; es más rápido hacerlo a mano.
-2. ~~Confirmar que el correo llega.~~ **Hecho:** el mensaje de prueba llegó.
-3. Si con esas claves fallara, crear claves nuevas en la consola **clásica**
-   (`google.com/recaptcha/admin`), tipo v3, con `mikan.es` **y**
-   `www.mikan.es` en la lista de dominios.
+Las claves, que son de tipo puntuación, estaban en el par **v2**. Un campo de
+diferencia, y el formulario llevaba meses sin poder enviarse.
+
+Cambios aplicados el 11/10/2026:
+
+1. Campo del formulario de `recaptcha` a `recaptcha_v3` (post 2372, widget
+   `afcefbc`).
+2. Clave de sitio y secreto trasladados al par **v3** en
+   `admin.php?page=elementor-settings`. **Nota:** el aviso que muestra Elementor
+   indica la ruta «Elementor → Settings → Integrations», pero la URL
+   `admin.php?page=elementor-integrations` no existe en esta instalación y
+   devuelve error. La pantalla buena es `admin.php?page=elementor-settings`.
+
+### Verificación: las tres capas, comprobadas por separado
+
+No basta con que el formulario envíe: antes de poner las claves también enviaba,
+sin protección alguna. Las tres propiedades se verificaron de forma
+independiente:
+
+| Capa | Prueba | Resultado |
+|---|---|---|
+| El formulario envía | Envío real con token genuino generado en la página | `success: true` |
+| El captcha protege | Envío con token falso, imitando a un bot | Rechazado: «reCAPTCHA V3 validation failed, suspected as abusive usage» |
+| El correo llega | Confirmación del destinatario | Recibido |
+
+Un formulario sin protección y uno protegido se comportan igual para un
+visitante normal. Solo se distinguen poniéndose en el lugar del atacante.
+
+### Estado final
+
+**Canal de contacto operativo y protegido.** Umbral de puntuación en el valor
+por defecto; si entrara spam, bajarlo, y si bloqueara a personas reales,
+subirlo, en el mismo campo `elementor_pro_recaptcha_v3_threshold`.
 
 ## 12.6 Pendiente: barrido de los 21 bloques de iconos
 
