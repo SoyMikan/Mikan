@@ -59,7 +59,7 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 
 | Documento | Para qué sirve |
 |---|---|
-| [`docs/01-diagnostico.md`](docs/01-diagnostico.md) | Qué ve hoy un profesional cuando busca a Mikan. Los 7 bloqueadores reales y los 10 activos que no está explotando. |
+| [`docs/01-diagnostico.md`](docs/01-diagnostico.md) | Qué ve hoy un profesional cuando busca a Mikan. Los 8 bloqueadores reales y los 11 activos que no está explotando. |
 | [`docs/02-plan-90-dias.md`](docs/02-plan-90-dias.md) | Plan semana a semana del 12 de octubre de 2026 al 3 de enero de 2027. |
 | [`docs/03-kit-de-contratacion.md`](docs/03-kit-de-contratacion.md) | El EPK: qué contiene, cómo producirlo con 0 €, y los rangos de caché. |
 | [`docs/04-mapa-de-booking.md`](docs/04-mapa-de-booking.md) | Qué circuitos compran su perfil, cuánto pagan y en qué mes hay que llamar. |
@@ -67,21 +67,43 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`docs/06-contenido-y-redes.md`](docs/06-contenido-y-redes.md) | Sistema de contenido sostenible para una sola persona sin presupuesto. |
 | [`docs/07-convocatorias-y-plazos.md`](docs/07-convocatorias-y-plazos.md) | Convocatorias públicas con fechas verificadas, y las que ya ha perdido. |
 | [`docs/08-metricas-y-cabeza.md`](docs/08-metricas-y-cabeza.md) | Cuadro de mando semanal y el antídoto operativo al síndrome del impostor. |
+| [`docs/09-auditoria-web.md`](docs/09-auditoria-web.md) | Auditoría de mikan.es: 17 correcciones priorizadas, con los enlaces exactos. Cuatro enlaces están rotos, incluido el de contratación. |
 | [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider y seguimiento, listos para rellenar. |
 
 ## Las 5 cosas que tiene que hacer esta semana
 
-1. **Montar el one-sheet y el dossier de contratación** (plantillas listas en
-   `plantillas/`). Sin esto no existe comercialmente. Coste: 0 €. Tiempo: 1 día.
-2. **Editar un vídeo de directo de 90 segundos** con el mejor material de archivo
-   que tenga del show. No necesita calidad de cine; necesita demostrar que el
-   show existe.
-3. **Arreglar la web**: quitar el "Próximamente" sin fechas, enlazar la tienda a
-   la tienda (hoy apunta a Instagram), añadir zona de descargas para prensa y
-   promotores, y sustituir las cifras no verificables por pruebas enlazadas.
-4. **Reclamar y ordenar los perfiles**: Spotify for Artists, YouTube Official
-   Artist Channel, ficha de Google. Hoy es invisible en buscadores.
+1. **Arreglar los enlaces de correo de la web.** Están mal formados
+   (`mailto:MAILTO:`) y en muchos navegadores **no abren nada**: puede haber
+   habido promotores que intentaron escribir y no pudieron. 5 minutos. Detalle y
+   enlaces corregidos en [`docs/09-auditoria-web.md`](docs/09-auditoria-web.md).
+2. **Sacar la actuación de la gala de RTVE a portada y a Videografía.** Es su
+   mejor material comercial y hoy está enterrado dentro de un párrafo de la
+   página de inicio.
+3. **Montar el one-sheet y exponer el dossier.** El PDF existe pero no está
+   enlazado en ninguna sección navegable de la web, así que comercialmente no
+   existe. Plantillas en `plantillas/`.
+4. **Editar un vídeo de directo de 90 segundos.** No un videoclip: directo. Con
+   la gala de RTVE y lo que tenga del show, es trabajo de edición, no de
+   grabación.
 5. **Enviar las 10 primeras propuestas de carnaval**, antes del 31 de octubre.
+
+## Qué falta para cerrar el kit de contratación
+
+Tres datos que no se pueden obtener desde fuera y que desbloquean el resto:
+
+1. **Los enlaces de los vídeos de directo.** Los 13 vídeos publicados en
+   `mikan.es/videografia` son 8 videoclips y 4 videolyrics: ninguno de directo.
+   Si existe grabación del show, de Horteralia, de Los conciertos de Los40 o de
+   la gala de RTVE en bruto, es el material que falta y es prioritario sobre
+   todo lo demás.
+2. **Las cifras del canal de YouTube**: suscriptores, visualizaciones totales y
+   los 5 vídeos más vistos con sus cifras. Son datos públicos pero el canal no
+   se puede leer de forma automatizada, y van en el one-sheet: a un promotor de
+   fiestas le dicen más 200.000 visualizaciones verificables de un clic que
+   cualquier dato de oyentes mensuales.
+3. **La URL del dossier en PDF**, si está subido en algún sitio. No está
+   enlazado en ninguna sección navegable de la web, así que hoy no es alcanzable
+   para nadie.
 
 ## Nota sobre el tono de este plan
 

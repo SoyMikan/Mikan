@@ -40,6 +40,11 @@ Objetivo: **pasar de incontratable a contratable en dos semanas.** Nada de esto
 cuesta dinero.
 
 **Semana 1 (12-18 oct)**
+- [ ] **Arreglar los enlaces rotos de la web — lo primero de todo.** Los dos
+      `mailto:` de contratación están mal formados y pueden no estar abriendo
+      nada. 45 minutos de trabajo que incluyen también sacar la actuación de la
+      gala de RTVE a portada. Instrucciones exactas en
+      `docs/09-auditoria-web.md`, apartados 9.2 y 9.4.
 - [ ] **One-sheet** (1 página A4/PDF): foto, dos líneas de descripción, 4
       credenciales con enlace, formatos disponibles, contacto. Plantilla en
       `plantillas/one-sheet.md`.
@@ -58,7 +63,9 @@ cuesta dinero.
       Con material de archivo del show, aunque sea de móvil: 3-4 cortes de
       distintos temas, audio lo mejor posible, rótulo con nombre y formato. No
       busca emocionar: **busca demostrar que el show existe y tiene nivel.**
-- [ ] **Arreglar la web** (lista completa en §2.7).
+- [ ] **Arreglar la web**: resto de correcciones P1 y P2 de
+      `docs/09-auditoria-web.md` (zona de prensa y contratación, fotos en alta,
+      sección de fechas, Videografía reordenada). Resumen en §2.7.
 - [ ] **Reclamar y optimizar perfiles**: Spotify for Artists, YouTube Official
       Artist Channel, Apple Music for Artists, perfil de Bandsintown y Songkick
       (gratis, y es lo que leen muchos agregadores y la propia ficha de Google).
@@ -174,10 +181,20 @@ trabajo que siempre se posterga.
 
 ## 2.7 Checklist de arreglos de la web *(coste 0 €, impacto alto)*
 
+> Auditoría completa, con los enlaces exactos a corregir y el orden de
+> ejecución, en [`09-auditoria-web.md`](09-auditoria-web.md). Resumen:
+
 - [ ] Sustituir **"Próximamente"** por fechas reales, o por un formulario de
       "avísame" y un bloque "Contratación" visible. Nunca dejar la sección vacía.
-- [ ] Corregir el enlace de **"Tienda"**, que hoy apunta a Instagram en lugar de
-      a la tienda.
+- [ ] **Corregir los cuatro enlaces rotos**: los dos `mailto:` de contratación
+      (duplican el prefijo `MAILTO:`), el de Apple Music (redirector de YouTube
+      con token caducable, apuntando a un single de 2022) y el de Spotify (lleva
+      a un álbum, no a su perfil de artista).
+- [ ] Corregir el enlace de **"Tienda"**, que apunta a Instagram en la cabecera
+      y a la tienda real en el menú móvil.
+- [ ] **Sacar la actuación de la gala de RTVE a portada y a Videografía.** Hoy
+      está enlazada solo dentro del cuerpo de una nota de prensa, y es su mejor
+      material comercial.
 - [ ] Corregir los enlaces de **discografía**: hoy hay un único enlace de álbum
       en la cabecera y un enlace de Apple Music que redirige a un single de 2022.
       Cada lanzamiento debe enlazar a su propia página en cada plataforma.

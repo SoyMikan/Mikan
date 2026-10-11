@@ -123,6 +123,10 @@ alcanzable, está bajo su control y conduce a ingresos reales.
   alcance: con su volumen, el coste es mayor que el beneficio.
 - **No publicar sin fecha de directo asociada** a partir del segundo single. Cada
   lanzamiento debe tener algo que anunciar.
+- **Anclar cada lanzamiento a YouTube**, que es donde está su audiencia real
+  (ver `docs/06-contenido-y-redes.md`, §6.7): estreno con fecha y hora,
+  recordatorio activado, y el vídeo como pieza central del lanzamiento en lugar
+  de un simple soporte del audio.
 - **No volver a publicar un videolyric como pieza principal.** Es el formato con
   menor retorno: no vende directo, no genera prensa y no funciona en vertical.
   Si hay que elegir entre un videolyric y 90 segundos de directo bien grabados,

@@ -23,9 +23,22 @@ Estructura en `plantillas/one-sheet.md`. Reglas:
   no pregunta.
 
 ### 2. Vídeo de directo de 60-90 segundos
-**Si solo pudiera hacer una cosa de todo este plan, sería esta.** El directo se
-compra viendo directo. Un videolyric no vende un concierto; 90 segundos de
-escenario, sí.
+**Si solo pudiera hacer una cosa de todo este plan, sería esta.**
+
+Conviene precisar una distinción que se pasa por alto constantemente: **un
+videoclip vende la canción; un vídeo de directo vende el concierto.** Son dos
+productos distintos y los compran personas distintas. Los 13 vídeos publicados
+en su web son 8 videoclips y 4 videolyrics, buen material pero **no material de
+booking**: un programador que ve un videoclip no sabe qué va a ocurrir en su
+plaza. Necesita ver escenario, público y sonido en vivo.
+
+**Punto de partida real, y es bueno:** la actuación de la **gala de Nochevieja
+de RTVE La 1** está en YouTube y es directo, prime time, con producción de
+televisión pública. Es su mejor material comercial existente y hoy está
+enterrado en un párrafo de la portada (ver `docs/09-auditoria-web.md`). Si
+además hay grabaciones del show, de Horteralia o de Los conciertos de Los40,
+el montaje de 90 segundos está prácticamente hecho: **es trabajo de edición, no
+de grabación.**
 
 Cómo hacerlo con 0 €:
 - Material de archivo de cualquier actuación del show, aunque sea de móvil.

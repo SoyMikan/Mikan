@@ -92,7 +92,45 @@ Es lo menos atractivo y lo más rentable a medio plazo.
   seguidores a los que el algoritmo no muestra las publicaciones. Y, al revés de
   las redes, **es un activo que nadie le puede quitar.**
 
-## 6.7 SEO y encontrabilidad: su problema más silencioso
+## 6.7 YouTube es su plataforma principal. Spotify no.
+
+Es el dato que más reorienta el plan, y viene del propio artista: **su canal de
+YouTube funciona y Spotify no le funciona en absoluto.**
+
+Esto no es una anomalía ni un defecto que haya que corregir. **Es información
+sobre qué tipo de artista es.** Un artista cuyo valor está en la imagen, el
+vestuario, la puesta en escena y el relato visual rinde en la plataforma donde
+se ve, y no en la que solo se oye. Pelear por crecer en Spotify sería invertir
+donde su propuesta vale menos.
+
+Hay además una causa técnica concreta: **su web nunca ha enlazado su perfil de
+artista de Spotify**, solo un álbum concreto donde no hay botón de seguir ni
+acceso al catálogo (ver `docs/09-auditoria-web.md`). Parte del "Spotify no me
+funciona" es un enlace mal puesto, no una sentencia del algoritmo.
+
+**Consecuencias prácticas:**
+
+1. **YouTube pasa a ser la plataforma principal** en jerarquía de enlaces, en la
+   bio, en la web y en los correos de booking. Es donde están sus números
+   buenos, y los números buenos son los que se enseñan.
+2. **Las cifras de YouTube entran en el kit de contratación.** A un promotor de
+   fiestas le dicen más 200.000 visualizaciones de un videoclip que cualquier
+   dato de oyentes mensuales. Y a diferencia de Spotify, **son públicas y
+   verificables de un clic**, lo que resuelve de paso el problema de
+   credibilidad del punto B3 del diagnóstico.
+3. **El formato largo es su terreno.** Vídeos de proceso, de diseño de portadas,
+   de montaje del show, de archivo de televisión: contenido que en vertical se
+   queda corto y en YouTube funciona.
+4. **Reclamar el Official Artist Channel** y ordenar el canal: listas de
+   reproducción por tipo (directo y TV / videoclips / proceso), tráilers de
+   canal, fichas y enlaces a contratación en las descripciones. Hoy, un promotor
+   que llega al canal no encuentra cómo contratarle.
+5. **Spotify se mantiene, no se abandona**: enlace correcto al perfil de artista,
+   ficha completa y Canvas en los lanzamientos. Pero deja de ser la vara de
+   medir, y eso también es higiene mental: **estaba midiéndose con la plataforma
+   que peor representa lo que hace.**
+
+## 6.8 SEO y encontrabilidad: su problema más silencioso
 
 Hoy, alguien que oye su nombre en la radio y lo busca **no lo encuentra**. Esto
 invalida cualquier inversión en promoción. Acciones:
