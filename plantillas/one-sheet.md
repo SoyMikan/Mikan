@@ -23,8 +23,11 @@ Sustituir el texto entre corchetes y maquetarlo con su identidad visual.
 > artísticamente por Alaska.
 
 **Credenciales**
-- Cerró la **gala de Nochevieja de RTVE La 1** → [enlace al vídeo]
-- **Premio a Mejor Canción 2025** por "Tres Corazones" → [enlace]
+- Cerró la **gala de Nochevieja de RTVE La 1**: **155.000 visualizaciones** en el
+  canal oficial de RTVE Música → [enlace]
+- **Premio a Mejor Canción 2025** por "Tres Corazones", **+390.000
+  visualizaciones** → [enlace]
+- **+110.000 visualizaciones** del vídeo de **THE MIKAN SHOW** → [enlace]
 - Single publicado con **Universal Music Spain** → [enlace]
 - **Candidato al Benidorm Fest** y preseleccionado para Eurovisión 2017 → [enlace]
 - Producción de **Javier Losada**; colaboraciones con **Nacho Canut** y **SPAM**
@@ -55,6 +58,8 @@ Spotify: [enlace] · YouTube: [enlace] · Instagram: @mikanoficial · mikan.es
 1. **Una página.** Si no cabe, sobra contenido.
 2. **La credencial más fuerte, primero.** La gala de RTVE abre el documento.
 3. **Toda afirmación, con enlace.** Un dato verificable vale más que diez
-   superlativos. Evitar cifras que el receptor no pueda comprobar.
+   superlativos. Evitar cifras que el receptor no pueda comprobar: sus cifras de
+   YouTube son públicas y se comprueban de un clic, así que son las que van aquí.
+   **Redondear siempre a la baja** (394.588 se dice "más de 390.000").
 4. **Formatos y contacto siempre visibles.** Que nadie tenga que preguntar.
 5. **Peso del PDF por debajo de 2 MB**, o los filtros de correo lo bloquean.

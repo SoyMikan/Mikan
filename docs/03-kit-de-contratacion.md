@@ -32,13 +32,14 @@ en su web son 8 videoclips y 4 videolyrics, buen material pero **no material de
 booking**: un programador que ve un videoclip no sabe qué va a ocurrir en su
 plaza. Necesita ver escenario, público y sonido en vivo.
 
-**Punto de partida real, y es bueno:** la actuación de la **gala de Nochevieja
-de RTVE La 1** está en YouTube y es directo, prime time, con producción de
-televisión pública. Es su mejor material comercial existente y hoy está
-enterrado en un párrafo de la portada (ver `docs/09-auditoria-web.md`). Si
-además hay grabaciones del show, de Horteralia o de Los conciertos de Los40,
-el montaje de 90 segundos está prácticamente hecho: **es trabajo de edición, no
-de grabación.**
+**Y la buena noticia: el material ya existe y no hay que grabar nada.** Hay
+tres piezas de directo publicadas —la gala de RTVE (en el canal de RTVE Música),
+el Sauvage Tour y La Rentrée Tour—, ninguna de ellas enlazada en la web. El
+inventario completo con cifras y el guion de montaje minuto a minuto están en
+[`10-inventario-audiovisual.md`](10-inventario-audiovisual.md).
+
+El reel de 90 segundos es, por tanto, **trabajo de edición de una tarde, no de
+producción.**
 
 Cómo hacerlo con 0 €:
 - Material de archivo de cualquier actuación del show, aunque sea de móvil.

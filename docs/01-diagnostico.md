@@ -21,8 +21,8 @@ a 11 de octubre de 2026:
 | Fechas de concierto | La web dice **"Próximamente"**, sin ni una fecha. |
 | Dossier / rider / fotos | **No alcanzables.** Hay galería con 40 imágenes, pero en miniaturas de 215 px y sin descarga en alta. El dossier en PDF que el artista tiene **no está enlazado en ninguna sección navegable de la web**. |
 | Caché | No hay referencia. Obliga al promotor a preguntar, y la mayoría no pregunta: pasa al siguiente. |
-| Datos de audiencia | No verificables desde fuera. La web afirma +6.000.000 de streams; no hay forma de comprobarlo en dos clics. |
-| Vídeo de directo | 13 piezas en Videografía, **todas videoclip o videolyric: ninguna de directo**. La actuación en la gala de RTVE existe en YouTube, pero está enlazada solo dentro del cuerpo de texto de una nota de prensa. |
+| Datos de audiencia | La web afirma +6.000.000 de streams, no comprobable. **Pero sus cifras de YouTube sí son públicas y verificables**: cerca de 1.000.000 de visualizaciones acumuladas. Simplemente no están en ninguna parte del discurso comercial (ver `docs/10-inventario-audiovisual.md`). |
+| Vídeo de directo | **Existen tres piezas de directo** —gala de RTVE, Sauvage Tour y La Rentrée Tour—, pero **ninguna está en la web**. Videografía contiene 13 piezas, todas videoclip o videolyric. El material que vende el show está fuera; el que no lo vende ocupa toda la sección. |
 
 **Conclusión:** hoy Mikan es **incontratable por motivos puramente
 administrativos**, no artísticos. Un programador que quisiera contratarle no
@@ -75,14 +75,27 @@ controla y cuyo alcance orgánico lleva años cayendo. Un artista sin lista de
 correo depende de que un algoritmo tenga un buen día. **Con 500 correos propios
 se llena una sala pequeña; con 15.000 seguidores de Instagram, no necesariamente.**
 
-### B6 · "Publicar" no es "lanzar" *(medio-alto, coste 0 €)*
-El single de febrero de 2026 con videolyric y sin repercusión no es un veredicto
-sobre la canción. Es **el resultado estadísticamente esperable** de subir un
-archivo sin plan de distribución: sin pitch editorial a plataformas con 4 semanas
-de antelación, sin pre-save, sin envío a prensa y radio, sin plan de contenido
-asociado, sin fecha de directo que lo sostenga. La misma canción, con un plan de
-6 semanas, habría tenido otro resultado. Esto es importante que lo interiorice:
-**falló el proceso, no la obra.**
+### B6 · El problema no es el alcance, es la conversión *(crítico, coste 0 €)*
+**Corrección importante respecto a mi análisis inicial.** Partí de la premisa de
+que el single de febrero de 2026 no había tenido repercusión. Los datos públicos
+dicen otra cosa: **su vídeo acumula 248.279 visualizaciones**, y el anterior
+394.588 (detalle en `docs/10-inventario-audiovisual.md`).
+
+Eso no es ausencia de repercusión. Para un artista autogestionado y sin
+presupuesto es un resultado que la mayor parte del sector no alcanza. Lo que
+falló no fue el alcance: **fue que no había absolutamente nada preparado para
+convertir ese alcance en algo.** Un cuarto de millón de personas vio ese vídeo
+y aterrizó —quien aterrizó— en una web con los enlaces de contratación rotos,
+sin sección de fechas, sin lista de correo y sin kit para un promotor.
+
+El reencuadre, que es el más importante de todo el documento:
+
+> **No es un artista sin público. Es un artista con público y sin negocio.**
+
+Son dos problemas distintos y el segundo se arregla en semanas. Faltó también el
+proceso de lanzamiento —pitch editorial, pre-save, prensa, fecha de directo que
+lo sostenga—, y eso sigue siendo cierto. Pero el cuello de botella real está
+después del alcance, no antes.
 
 ### B8 · El embudo está físicamente roto *(crítico, coste 0 €)*
 Descubierto al auditar la web (detalle completo en `docs/09-auditoria-web.md`).
@@ -141,7 +154,7 @@ artistas emergentes no tiene ni tres de estas once cosas.
    ingresos más corta.
 10. **Base en Santander.** Coste de vida bajo, competencia local reducida, y
     acceso a circuitos del norte y al Programa Platea vía teatros municipales.
-11. **Un canal de YouTube que sí funciona.** Es el dato más útil de todo el
+11. **Un canal de YouTube que sí funciona, y con cifras.** Es el dato más útil de todo el
     inventario, y reorienta parte del plan. Su audiencia está en YouTube, no en
     Spotify, y eso **no es un defecto: es información sobre qué tipo de artista
     es.** Un artista visual, de puesta en escena y narrativa de imagen, rinde en

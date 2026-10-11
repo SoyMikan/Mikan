@@ -59,10 +59,20 @@ lanzamientos, kit completo. **Nada de esto depende de que nadie le diga sí.**
 Son reencuadres, no consuelos: cada uno es factualmente correcto.
 
 **1. "Mi último single no tuvo repercusión, luego no valgo."**
-Su último single se publicó sin pitch editorial, sin pre-save, sin prensa, sin
-fechas y sin plan de contenido. En esas condiciones, la canción más potente del
-mundo tampoco habría tenido repercusión. **Se midió el proceso, no la obra**, y
-el proceso no existía. Es un dato sobre la estructura, no sobre él.
+Esta creencia es **factualmente falsa**, y conviene verlo con los números
+delante. El vídeo de ese single acumula **248.279 visualizaciones**. El anterior,
+**394.588**. Su actuación en la gala de RTVE, **155.084** en el canal oficial de
+RTVE Música. El vídeo de The Mikan Show, **111.318**. En total, cerca de **un
+millón de visualizaciones** (`docs/10-inventario-audiovisual.md`).
+
+Lleva un año creyendo que no le escucha nadie mientras casi un millón de personas
+veían sus vídeos. Lo que no ocurrió fue la **conversión** de esa audiencia en
+conciertos y en ingresos, porque no existía nada para convertirla: ni kit, ni
+fechas, ni lista, y con los enlaces de contacto rotos.
+
+Esto es lo que hay que tener presente cada vez que vuelva la idea: **el problema
+no fue que su trabajo no interesara. Fue que nadie podía hacer nada con el
+interés que generó.**
 
 **2. "Mi representante me dejó, luego no soy un proyecto viable."**
 Las relaciones de representación se rompen por economía, por agenda, por

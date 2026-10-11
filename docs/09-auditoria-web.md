@@ -173,7 +173,15 @@ booking**. Si existe grabación de directo sin publicar —de la gala, de
 Horteralia, de Los40 o del show completo—, **ese es el material que falta
 exponer**, y es prioritario sobre cualquier otra cosa.
 
+**Y falta lo más importante:** existen **tres piezas de directo publicadas en
+YouTube** —la gala de RTVE, *The Mikan Show Sauvage Tour (Live)* y *The Mikan
+Show (La Rentrée Tour)*, esta última con **111.318 visualizaciones**— y
+**ninguna de las tres aparece en Videografía**. El material que vende el show
+está fuera de la web; el que no lo vende ocupa la sección completa. Inventario
+con cifras en [`10-inventario-audiovisual.md`](10-inventario-audiovisual.md).
+
 **Acciones:**
+- **Añadir las tres piezas de directo**, que hoy no están.
 - Reordenar: directo y TV primero, videoclips después, videolyrics al final.
 - Corregir la **entrada duplicada** de "Filias y fobias".
 - Añadir **año** a cada pieza. Sin fecha, no se distingue lo nuevo de 2015.

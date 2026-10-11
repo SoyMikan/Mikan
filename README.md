@@ -15,17 +15,25 @@ artista (mikan.es, @mikanoficial, prensa indexada) a fecha de **11 de octubre de
 
 ## La tesis en un párrafo
 
-Mikan **no tiene un problema de talento ni de catálogo: tiene un problema de
-distribución comercial**. Tiene un show completo montado y pagado, material
-grabado sin publicar y credenciales de primer nivel (gala de Nochevieja de RTVE
-La 1, premio a Mejor Canción 2025, single con Universal, candidatura a Benidorm
-Fest, padrinazgo de Alaska) que **no está convirtiendo en nada** porque no existe
-la infraestructura mínima para venderlas. Su perfil no monetiza por streaming
-—no tiene volumen— sino **por directo en formato espectáculo**. Por tanto el plan
-no es "publicar música para crecer en Spotify y esperar a que llamen": es
-**vender el show que ya existe a los circuitos que compran espectáculo y pagan
-por adelantado** (carnavales, orgullos, fiestas patronales, teatros y ciclos
-municipales), y usar la música como material de apoyo a esa venta.
+**No es un artista sin público: es un artista con público y sin negocio.** Sus
+vídeos acumulan cerca de **un millón de visualizaciones** en YouTube —155.000 de
+su actuación en la gala de Nochevieja de RTVE La 1, en el canal oficial de RTVE
+Música; 394.588 de su último videoclip; 111.318 del vídeo de The Mikan Show—.
+Tiene además un show montado y pagado, material grabado sin publicar y
+credenciales de primer nivel (premio a Mejor Canción 2025, single con Universal,
+candidatura al Benidorm Fest, padrinazgo de Alaska).
+
+Nada de eso se está convirtiendo en nada, y la causa es identificable: **no
+existe la infraestructura mínima para convertirlo**. Un cuarto de millón de
+personas vio su último vídeo y aterrizó en una web con los enlaces de
+contratación rotos, sin sección de fechas, sin lista de correo y sin kit para un
+promotor. Su volumen está en **YouTube**, no en el streaming de audio, y su
+monetización está en **el directo en formato espectáculo**, no en la plataforma.
+Por tanto el plan no es "publicar música para crecer en Spotify y esperar a que
+llamen": es **vender el show que ya existe a los circuitos que compran
+espectáculo y pagan por adelantado** (carnavales, orgullos, fiestas patronales,
+teatros y ciclos municipales), y usar la música como material de apoyo a esa
+venta.
 
 Esto invierte el orden habitual, y es lo correcto en su caso: genera ingresos en
 6 meses en lugar de 24, y cada concierto produce el contenido que después
@@ -68,6 +76,7 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`docs/07-convocatorias-y-plazos.md`](docs/07-convocatorias-y-plazos.md) | Convocatorias públicas con fechas verificadas, y las que ya ha perdido. |
 | [`docs/08-metricas-y-cabeza.md`](docs/08-metricas-y-cabeza.md) | Cuadro de mando semanal y el antídoto operativo al síndrome del impostor. |
 | [`docs/09-auditoria-web.md`](docs/09-auditoria-web.md) | Auditoría de mikan.es: 17 correcciones priorizadas, con los enlaces exactos. Cuatro enlaces están rotos, incluido el de contratación. |
+| [`docs/10-inventario-audiovisual.md`](docs/10-inventario-audiovisual.md) | Inventario de vídeos con cifras reales, qué pieza usar en cada circuito y el guion de montaje del reel de booking. |
 | [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider y seguimiento, listos para rellenar. |
 
 ## Las 5 cosas que tiene que hacer esta semana
@@ -82,28 +91,25 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 3. **Montar el one-sheet y exponer el dossier.** El PDF existe pero no está
    enlazado en ninguna sección navegable de la web, así que comercialmente no
    existe. Plantillas en `plantillas/`.
-4. **Editar un vídeo de directo de 90 segundos.** No un videoclip: directo. Con
-   la gala de RTVE y lo que tenga del show, es trabajo de edición, no de
-   grabación.
+4. **Montar el reel de booking de 90 segundos.** No hay que grabar nada: las
+   tres piezas de directo ya existen (gala de RTVE, Sauvage Tour, La Rentrée
+   Tour). Guion de montaje minuto a minuto en
+   [`docs/10-inventario-audiovisual.md`](docs/10-inventario-audiovisual.md).
+   Y añadir esas tres piezas a Videografía, donde hoy no aparece ninguna.
 5. **Enviar las 10 primeras propuestas de carnaval**, antes del 31 de octubre.
 
-## Qué falta para cerrar el kit de contratación
+## Qué falta por aclarar
 
-Tres datos que no se pueden obtener desde fuera y que desbloquean el resto:
-
-1. **Los enlaces de los vídeos de directo.** Los 13 vídeos publicados en
-   `mikan.es/videografia` son 8 videoclips y 4 videolyrics: ninguno de directo.
-   Si existe grabación del show, de Horteralia, de Los conciertos de Los40 o de
-   la gala de RTVE en bruto, es el material que falta y es prioritario sobre
-   todo lo demás.
-2. **Las cifras del canal de YouTube**: suscriptores, visualizaciones totales y
-   los 5 vídeos más vistos con sus cifras. Son datos públicos pero el canal no
-   se puede leer de forma automatizada, y van en el one-sheet: a un promotor de
-   fiestas le dicen más 200.000 visualizaciones verificables de un clic que
-   cualquier dato de oyentes mensuales.
-3. **La URL del dossier en PDF**, si está subido en algún sitio. No está
+1. **La URL del dossier en PDF**, si está subido en algún sitio. No está
    enlazado en ninguna sección navegable de la web, así que hoy no es alcanzable
    para nadie.
+2. **Suscriptores y retención del canal de YouTube** (están en YouTube Studio,
+   no son públicos). Decidirán la estrategia de contenido de 2027.
+3. **Si hubo inversión publicitaria** detrás de las visualizaciones. No cambia
+   su uso en el kit —la cifra pública es igual de verificable— pero sí cambia la
+   lectura de cuánta audiencia propia hay.
+4. **El reel de directo de Instagram** con el llamamiento: contenido, fecha y
+   cifras, para decidir si es material de booking o de comunidad.
 
 ## Nota sobre el tono de este plan
 
