@@ -84,23 +84,55 @@ contenido:
 Diferencia de tamaño por página: entre +8 y +58 bytes, coherente con cambiar
 solo cadenas de URL. **Ningún elemento perdido.**
 
-## 12.3 Pendiente
+## 12.3 Enlace TIENDA de la cabecera *(aplicado)*
+
+El enlace apuntaba a `http://www.instagram.com/mikanoficial` —a Instagram en
+lugar de a la tienda, y en HTTP sin cifrar— mientras el menú de WordPress ya
+apuntaba correctamente a la tienda.
+
+Discriminador usado: el enlace defectuoso empleaba `http://`, mientras los
+iconos sociales legítimos usan `https://`. Eso permitió sustituir únicamente
+esa cadena exacta sin tocar los iconos de Instagram.
+
+Hallazgo: el enlace **no estaba en un widget de menú sino en un widget de
+texto**, uno distinto por página. Es decir, la navegación secundaria de la
+cabecera está escrita a mano en HTML dentro de un bloque de texto en lugar de
+ser un menú de WordPress.
+
+| Página | Post | Widget |
+|---|---|---|
+| Home | 100 | `78b7d5a` |
+| Biografía | 2189 | `bd8be20` |
+| Discografía | 1604 | `ef6844a` |
+| Videografía | 1613 | `ee56cdc` |
+| Prensa | 1675 | `80ddd96` |
+| Galería | 2049 | `9493f1d` |
+| Contacto | 2372 | `e9cc6ef` |
+
+**Verificado** en la web pública: TIENDA apunta a `https://mikanstore.es/` en
+sus dos apariciones (cabecera y menú móvil), cero apariciones de
+`http://www.instagram.com/mikanoficial`, y los tres iconos sociales de
+Instagram siguen intactos con su `https://`.
+
+## 12.4 Pendiente
 
 | Punto | Estado | Qué falta |
 |---|---|---|
 | Icono de **Spotify** | Pendiente | Hace falta la URL del **perfil de artista** (`open.spotify.com/artist/...`). Hoy apunta a un álbum. |
 | Icono de **Apple Music** | Pendiente | Hace falta la URL de su **página de artista**. Hoy es un redirector de YouTube con token caducable que apunta a un single de 2022. |
-| Enlace **TIENDA** de la cabecera | Pendiente | Está en un widget de Elementor, no en el menú de WordPress (ahí ya era correcto). |
 | Enlazar el **EPK** | Pendiente | `Mikan-Amor-Sin-Final-EPK2026.pdf` está subido sin enlazar. |
 | Sección de **prensa y contratación** | Pendiente | Trabajo de creación de página, no de corrección. |
 | Sección de **fechas** | Pendiente | Ídem. |
 | Vídeos de **directo en Videografía** | Pendiente | Añadir las tres piezas y la gala de RTVE. |
 
-## 12.4 Recomendación derivada de lo anterior
+## 12.5 Recomendación derivada de lo anterior
 
-Que el bloque de contacto esté duplicado siete veces en lugar de ser una
-plantilla única significa que **cualquier cambio futuro de teléfono o de correo
-obliga a siete ediciones**, con el riesgo de que una se quede atrás y queden
-datos de contacto inconsistentes. Convertirlo en una plantilla de pie de página
+Dos bloques que deberían ser plantillas únicas están duplicados en las siete
+páginas: el de contacto y la navegación secundaria de la cabecera, esta última
+escrita además a mano en HTML dentro de un widget de texto. Significa que
+**cualquier cambio futuro de teléfono, de correo o de menú obliga a siete
+ediciones**, con el riesgo de que una se quede atrás y queden datos
+inconsistentes. Es exactamente el mecanismo por el que los `mailto` llevaban
+rotos quién sabe cuánto tiempo. Convertirlo en una plantilla de pie de página
 de Elementor es media hora de trabajo y elimina esa clase de error de forma
 permanente. Mismo razonamiento para el bloque de cabecera.
