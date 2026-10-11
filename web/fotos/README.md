@@ -22,6 +22,23 @@ El PNG original de la segunda se convirtió a JPEG de calidad 92 para que el
 paquete descargable baje de 9,4 a **4,9 MB**: un promotor que descarga por el
 móvil desde una comisión de fiestas no espera a diez megas.
 
+## Corrección importante
+
+Una versión anterior de este documento afirmaba que **«todo el material vende
+al artista y nada vende el espectáculo»**, y lo presentaba como un patrón
+confirmado tras observarlo también en los vídeos.
+
+**Era falso.** El artista dispone de un archivo amplio de fotografía de
+directo —escenario, humo, pantallas LED, la compañía de baile al completo,
+público en cuadro y escenarios de Pride— recogido en `web/fotos-directo/`.
+
+El error de método fue el mismo de otras veces en este proyecto: **se dedujo
+el inventario a partir de lo publicado en la web**, no a partir de lo que
+existe. Y conviene decir que el hallazgo **refuerza** el diagnóstico de fondo
+en lugar de desmentirlo: el material existe, es bueno, y no está en ningún
+sitio donde un promotor lo busque. El problema nunca fue de producción; es de
+escaparate.
+
 ## Valoración profesional
 
 **Lo que está muy bien.** Las cuatro comparten un mundo visual reconocible
@@ -29,28 +46,14 @@ móvil desde una comisión de fiestas no espera a diez megas.
 hace que un cartel funcione: que se te reconozca de lejos. No son fotos de
 aficionado y no hay que rehacerlas.
 
-**El hueco, que es el mismo de los vídeos.** Las cuatro son **retrato de
-estudio o posado**. Ninguna es de directo. No hay escenario, ni luces de show,
-ni público, ni las cuatro bailarinas — que son justo el elemento que
-diferencia el espectáculo.
+**Su papel en el kit.** Las cuatro son retrato de estudio o posado, y ese es
+exactamente su cometido: prensa, one-sheet y ficha de artista. El material de
+directo, que es el que vende el espectáculo, está en `web/fotos-directo/` y
+cumple una función distinta y complementaria.
 
-Es un patrón que se repite en todo el material del artista: **todo vende al
-artista y nada vende el show**. Lo mismo pasaba con los vídeos, donde había
-ocho videoclips y ninguna pieza de directo en la web. Un promotor de
-carnaval no compra un retrato: compra lo que va a pasar en su plaza.
-
-**Qué falta, por orden de importancia:**
-
-1. **Una foto de directo con público en cuadro.** Es la que cierra
-   contrataciones, y hoy no existe.
-2. **Una foto del formato completo con las cuatro bailarinas.** Siete personas
-   en escena es el argumento de venta, y no hay ninguna imagen que lo pruebe.
-3. **Un plano entero del vestuario.** Las cuatro son de medio cuerpo o primer
-   plano: no se ve un look completo.
-
-Las tres se resuelven en el primer concierto que haga, contratando a un
-fotógrafo por 150-250 €. **Es la inversión con mayor retorno del plan**, por
-delante de cualquier gasto en promoción.
+**Lo único que sigue faltando** es un plano entero de vestuario en estudio:
+las cuatro son de medio cuerpo o primer plano, de modo que no se aprecia un
+look completo. Se resuelve en la próxima sesión.
 
 ## Pendiente antes de publicar
 
