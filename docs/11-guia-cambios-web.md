@@ -16,6 +16,106 @@ las de WordPress. Si el tema usa un constructor visual (Elementor, WPBakery,
 Divi), algunos elementos se editan desde el constructor en lugar del editor
 estándar; se indica dónde puede pasar.
 
+## 11.0 bis · Datos verificados desde el panel *(11 de octubre de 2026)*
+
+Esta sección sustituye las suposiciones del resto de la guía por lo que se ha
+comprobado accediendo al gestor. Donde haya discrepancia, manda esto.
+
+**Plataforma:** WordPress, tema **Twenty Twenty-One**, maquetado con
+**Elementor Pro**. Login en `https://mikan.es/wp-login.php`.
+
+**20 plugins activos**, entre ellos seis addons de Elementor solapados
+(ElementsKit Lite, Happy Elementor Addons, Livemesh Addons, Custom Icons for
+Elementor, PDF viewer for Elementor, FlowPaper) más Jetpack, Site Kit, Metricool,
+Rank Math SEO, Really Simple Security, Complianz, Akismet, Photo Gallery by
+Supsystic y Social Feed Gallery. Para un sitio de 13 páginas es mucho: es la
+causa más probable de la lentitud de carga y supone una superficie de
+mantenimiento y de seguridad considerable. **Recomendación:** revisar cuáles se
+usan de verdad y desactivar el resto, de uno en uno y comprobando la web después
+de cada desactivación.
+
+**El EPK existe y está subido.** En la biblioteca de medios está el archivo
+`Mikan-Amor-Sin-Final-EPK2026.pdf`. No está enlazado en ninguna página, así que
+hoy es inalcanzable. Es el archivo que debe ir en la sección "Prensa y
+contratación" del apartado 11.5. Su URL se obtiene en `Medios → Biblioteca`,
+abriendo el archivo y copiando "URL del archivo".
+
+Nota sobre su contenido: es un EPK **de un single concreto** ("Amor Sin Final",
+2026). Sirve para prensa, pero **no sustituye al dossier de contratación**, que
+es otro documento y tiene otro objetivo: el EPK vende una canción, el dossier
+vende el espectáculo. Conviene enlazar el EPK ya y preparar el dossier aparte.
+
+### El menú: IDs y valores reales
+
+Hay **un solo menú** de WordPress, llamado "Menu". Estos son sus ítems con
+URL editable y los valores exactos que tenía:
+
+| ID del ítem | Etiqueta | Valor encontrado | Valor correcto |
+|---|---|---|---|
+| 1506 | HOME | `http://www.mikan.es/#home` | `https://mikan.es/#home` |
+| 1507 | BIOGRAFIA | `http://www.mikan.es/biografia` | `https://mikan.es/biografia/` |
+| 1514 | GALERIA | `http://www.mikan.es/galeria` | `https://mikan.es/galeria/` |
+| 1515 | CONTACTO | `#Contacto` | `https://mikan.es/contacto/` |
+| 2059 | TIENDA | `https://mikanstore.es/` | **ya es correcto** |
+
+Dos hallazgos que no se veían desde fuera:
+
+1. **HOME, BIOGRAFÍA y GALERÍA apuntan a `http://www.mikan.es/...`**: en HTTP sin
+   cifrar y con `www`. Esto es **el origen concreto de la duplicación de dominio**
+   señalada en la auditoría, y se arregla aquí, en estos tres campos, no en la
+   configuración general.
+2. **El TIENDA del menú de WordPress ya está bien.** El enlace que apunta a
+   Instagram está en un **widget de Elementor de la cabecera**, no en este menú.
+   Hay que corregirlo editando la cabecera con Elementor.
+
+Los ítems DISCOGRAFÍA, ESPECTRAL, ENLLUERNAT, SALVAJE, TRES CORAZONES, AMOR SIN
+FINAL, VIDEOGRAFÍA y PRENSA son de tipo "Elementor" y no tienen campo de URL
+editable: apuntan a sus páginas y no hay que tocarlos.
+
+### El widget de los correos: ubicación exacta
+
+Los dos enlaces mal formados están en **un único widget de texto de Elementor**,
+identificador `658ef7f`, que se repite en las siete páginas. Su contenido exacto
+actual es:
+
+```html
+<p><b>INFORMACIÓN:</b></p>
+<p><a href="mailto:MAILTO:CONTRATACION@MIKAN.ES">CONTRATACION@MIKAN.ES</a> | <a href="mailto:MAILTO:MIKAN@MIKAN.ES">MIKAN@MIKAN.ES</a></p>
+<p>TEL. (+34) 603. 55. 12. 98.</p>
+```
+
+Y debe quedar exactamente así —solo cambian los dos `href`, el texto visible no
+se toca, de modo que **el aspecto de la web no cambia en nada**:
+
+```html
+<p><b>INFORMACIÓN:</b></p>
+<p><a href="mailto:contratacion@mikan.es">CONTRATACION@MIKAN.ES</a> | <a href="mailto:mikan@mikan.es">MIKAN@MIKAN.ES</a></p>
+<p>TEL. (+34) 603. 55. 12. 98.</p>
+```
+
+**Cómo llegar al widget:** abrir la página de inicio con `Editar con Elementor`,
+localizar el bloque de contacto del final, hacer clic en el texto
+"INFORMACIÓN:" para seleccionar el widget, y en el panel izquierdo cambiar a la
+pestaña **"Texto"** del editor (la que muestra el HTML en lugar del texto
+formateado). Ahí se pegan los dos `href` corregidos y se pulsa **Actualizar**.
+
+**Importante:** hay que comprobar si el cambio se propaga a las siete páginas o
+solo a la de inicio. Si el bloque es una plantilla global, con una vez basta; si
+cada página tiene su copia, hay que repetirlo en las siete. Para comprobarlo,
+tras guardar en la portada, abrir `mikan.es/biografia` y ver si el enlace ya
+está bien. Las páginas y sus identificadores son: Home (100), Biografía (2189),
+Discografía (1604), Videografía (1613), Prensa (1675), Galería (2049) y
+Contacto (2372).
+
+### Verificación objetiva, sin entrar al panel
+
+Para comprobar si un cambio ha surtido efecto, basta con mirar el código de la
+página publicada: en el navegador, `Ctrl+U` en `mikan.es` y buscar `MAILTO:`.
+**Si no aparece ninguna coincidencia, está arreglado.** Antes de los cambios
+aparecía dos veces por página, en las siete.
+
+---
+
 ## 11.0 Antes de tocar nada *(10 minutos, no saltar)*
 
 1. **Cambiar la contraseña de administrador.** Si una contraseña se ha enviado
