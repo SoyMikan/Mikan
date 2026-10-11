@@ -77,7 +77,8 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`docs/08-metricas-y-cabeza.md`](docs/08-metricas-y-cabeza.md) | Cuadro de mando semanal y el antídoto operativo al síndrome del impostor. |
 | [`docs/09-auditoria-web.md`](docs/09-auditoria-web.md) | Auditoría de mikan.es: 17 correcciones priorizadas, con los enlaces exactos. Cuatro enlaces están rotos, incluido el de contratación. |
 | [`docs/10-inventario-audiovisual.md`](docs/10-inventario-audiovisual.md) | Inventario de vídeos con cifras reales, qué pieza usar en cada circuito y el guion de montaje del reel de booking. |
-| [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider y seguimiento, listos para rellenar. |
+| [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider, seguimiento, nota de prensa y base de prospección, listos para rellenar. |
+| [`plantillas/copy-promocional.md`](plantillas/copy-promocional.md) | Crítica del texto promocional actual y reescritura en dos versiones: promotores y público. |
 
 ## Las 5 cosas que tiene que hacer esta semana
 
@@ -108,8 +109,8 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 3. **Si hubo inversión publicitaria** detrás de las visualizaciones. No cambia
    su uso en el kit —la cifra pública es igual de verificable— pero sí cambia la
    lectura de cuánta audiencia propia hay.
-4. **El reel de directo de Instagram** con el llamamiento: contenido, fecha y
-   cifras, para decidir si es material de booking o de comunidad.
+4. **Cifras del reel de Instagram**: visualizaciones, alcance y guardados. El
+   contenido ya está catalogado; faltan los números.
 
 ## Nota sobre el tono de este plan
 

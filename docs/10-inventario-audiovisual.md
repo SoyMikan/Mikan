@@ -23,8 +23,13 @@ precisamente lo que las hace útiles en un kit de contratación.
 | **The Mikan Show Sauvage Tour (Live)** | **Directo / show** | 1:48 | **37.322** | Mikan Oficial |
 | **La Rentrée Tour (Vídeo Promocional)** | Promocional | 3:33 | **1.899** | Mikan Oficial |
 
-Más un **reel de directo en Instagram** con un llamamiento, pendiente de
-catalogar.
+Más un **reel de directo en Instagram** que funciona como llamamiento de
+contratación: imágenes de show con un texto dirigido en parte al público y en
+parte a promotores, cerrado con `BOOKING: contratacion@mikan.es`. Es material de
+booking, y por tanto cuenta como su **cuarta pieza de directo**. El texto que lo
+acompaña tiene problemas de segmentación y de ausencia de datos que lo hacen
+rendir muy por debajo de su potencial: crítica detallada y reescritura en
+[`../plantillas/copy-promocional.md`](../plantillas/copy-promocional.md).
 
 ## 10.2 Lo que estos números cambian
 
@@ -172,5 +177,7 @@ dinero**:
   kit**: la cifra pública es igual de verificable.
 - **Retención y suscriptores** del canal, que están en YouTube Studio y no son
   públicos. Son los datos que decidirán la estrategia de contenido de 2027.
-- **El reel de Instagram** con el llamamiento: contenido, fecha y cifras, para
-  decidir si es material de booking o de comunidad.
+- **Cifras del reel de Instagram** (visualizaciones, alcance, guardados). El
+  contenido ya está catalogado como material de booking; faltan los números para
+  saber si merece inversión de promoción de pago, que en Instagram es la única
+  forma realista de que un reel llegue a quien no te sigue.
