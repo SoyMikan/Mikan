@@ -8,9 +8,20 @@ version: "1.0"
 
 # Corrección de crédito · Ayuntamiento de Santander
 
-**Contexto.** La cuenta municipal `@santanderfestejos` publicó el 29 de junio de
-2025 un vídeo del **Orgullo LGTBIQ+ del Río de la Pila** en el que aparece
-MIKAN junto a Nebulossa. El pie del vídeo le acredita como **«Milán»**.
+**Contexto.** La cuenta municipal `@santanderfestejos` publicó un vídeo del
+**Orgullo LGTBIQ+ del Río de la Pila** en el que aparece MIKAN junto a
+Nebulossa. El pie del vídeo le acredita como **«Milán»**.
+
+**El vídeo concreto** (verificado el 12 de octubre de 2026):
+`https://www.tiktok.com/@santanderfestejos/video/7521487556484042006`
+
+> 🎤 Nebulossa, en el Orgullo LGTBIQ+ del Río de la Pila, junto a **Milán** y
+> Mikaella Ritchy 🏳️‍🌈 […] @NEBULOSSA
+
+**El argumento que cierra la petición:** el mismo Ayuntamiento lo publicó bien
+en su propio Instagram («con la colaboración de @mikanoficial y
+@mikaella_ritchy»). No hay que explicar quién es uno: basta señalar que en su
+otra cuenta ya está correcto y que se trata de igualar las dos.
 
 Una credencial que no lleva tu nombre no es tuya. Y TikTok permite editar el
 pie de una publicación ya subida, así que la corrección no le cuesta nada a

@@ -81,6 +81,27 @@ El Ayuntamiento de Santander ha publicado el mismo evento en dos plataformas y
 | Instagram, `@santanderfestejos` | «con la colaboración de **@mikanoficial** y @mikaella_ritchy» | **Correcto** |
 | TikTok, `@santanderfestejos` | «junto a **Milán** y Mikaella Ritchy» | **Erróneo** |
 
+**Enlace exacto del vídeo a corregir** (verificado el 12 de octubre de 2026):
+`https://www.tiktok.com/@santanderfestejos/video/7521487556484042006`
+
+Pie completo, tal cual está publicado:
+
+> 🎤 Nebulossa, en el Orgullo LGTBIQ+ del Río de la Pila, junto a **Milán** y
+> Mikaella Ritchy 🏳️‍🌈 #santander #cantabria #orgullo #pride #nebulossa #zorra
+> #aquiénleimporta #fyp #foryou #parati #tiktok @NEBULOSSA
+
+### Y un segundo vídeo del mismo momento, en el que no aparece acreditado
+
+`https://www.tiktok.com/@spicestas/video/7529142305509362950` — cuenta de
+terceros, sin relación con el Ayuntamiento. Su pie dice: *«Nebulosa brillando
+como una estrella ✨ Cantando ZORA y bailando con el público»*.
+
+Es decir: **ni se le nombra**. Queda reducido a «el público». No hay nada que
+corregir ahí —es una cuenta ajena y no tiene obligación de acreditar a nadie—,
+pero sirve para ver el mecanismo completo: cuando el artista no gestiona su
+propio crédito, el crédito desaparece. Primero se convierte en «Milán» y
+después en «el público».
+
 Esto **facilita** la petición de corrección en lugar de complicarla: no hay
 que explicar quién es uno, basta con señalar que en su propio Instagram está
 bien puesto. Conviene incorporar esa frase al mensaje de
