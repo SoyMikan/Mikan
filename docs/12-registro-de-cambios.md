@@ -263,3 +263,27 @@ inconsistentes. Es exactamente el mecanismo por el que los `mailto` llevaban
 rotos quién sabe cuánto tiempo. Convertirlo en una plantilla de pie de página
 de Elementor es media hora de trabajo y elimina esa clase de error de forma
 permanente. Mismo razonamiento para el bloque de cabecera.
+
+## 12.8 Gestiones externas
+
+| Fecha | Gestión | Estado |
+|---|---|---|
+| 12 oct 2026 | **DM a `@santanderfestejos`** (Ayuntamiento de Santander) pidiendo corregir «Milán» → «MIKAN» en el pie del vídeo de TikTok del Orgullo del Río de la Pila, `.../video/7521487556484042006` | **Enviado por el artista.** Pendiente de respuesta |
+
+**Seguimiento previsto:** no reclamar antes de 72 horas. Si a 15 de octubre no
+hay respuesta, enviar la versión de correo formal a la Concejalía de Festejos o
+de Cultura, que deja registro administrativo.
+
+**Mientras no esté corregido**, el enlace de prueba que se adjunta a la nota de
+prensa de GPS17 y al dosier de contratación es **el reel de Instagram**, donde
+el crédito ya está bien puesto, no el de TikTok.
+
+**Si lo corrigen:** agradecerlo en público, en una story etiquetando a la
+cuenta. Cuesta treinta segundos, deja a la institución en buen lugar y crea la
+relación que hace falta para el siguiente contacto —que es el del día 18 de la
+campaña de GPS17, pidiéndoles difusión de la votación—. Esas dos peticiones no
+deben ir nunca en el mismo mensaje: **una queja y un favor juntos se anulan.**
+Primero se cierra la corrección, después se agradece, y solo entonces se pide.
+
+**Y el pie erróneo queda registrado literal en `docs/16-credenciales.md`**, así
+que cuando se corrija no se pierde la constancia de lo que decía.
