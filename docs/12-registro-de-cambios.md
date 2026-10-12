@@ -287,3 +287,43 @@ Primero se cierra la corrección, después se agradece, y solo entonces se pide.
 
 **Y el pie erróneo queda registrado literal en `docs/16-credenciales.md`**, así
 que cuando se corrija no se pierde la constancia de lo que decía.
+
+## 12.9 Página de contratación · montada y publicada (12 oct 2026)
+
+Lo que faltaba de la petición «escribe todo y móntalo»: el texto estaba escrito
+desde el 11 de octubre, pero **la página no existía en la web**. Montada y
+verificada el 12 de octubre.
+
+| Elemento | Resultado |
+|---|---|
+| Página nueva | id **2711**, publicada en **https://mikan.es/contratacion/** (HTTP 200) |
+| Estructura | Cabecera y pie copiados de la página de contacto, para que no quede huérfana del diseño del sitio |
+| Contenido | `web/contratacion.html` en un widget HTML de Elementor: 9 bloques, 3 vídeos de YouTube embebidos, EPK en PDF enlazado y verificado |
+| Credencial añadida | **GPS17 · Girando Por Salas**, en el distintivo de cabecera y en la línea de credenciales |
+| Menú principal | El elemento **TIENDA** (id 2643) pasa a **CONTRATACIÓN** → `/contratacion/`. 13 elementos antes y 13 después: **ninguno perdido** |
+| Enlaces TIENDA escritos a mano | Corregidos en **13 páginas** (las 12 existentes más la nueva), 2 por página |
+
+**Hallazgo durante el barrido.** El enlace TIENDA escrito a mano en los widgets
+de texto no apuntaba al mismo sitio en todas las páginas:
+
+- En 7 páginas apuntaba a `https://mikanstore.es/`
+- En **5 páginas** (Espectral, Salvaje, Enlluernat, Tres Corazones, Amor Sin
+  Final) apuntaba a **`http://www.instagram.com/mikanoficial`**
+
+Es decir: en cinco páginas el enlace «TIENDA» llevaba a Instagram. Es la
+consecuencia exacta del problema estructural del apartado 12.7 —el mismo bloque
+duplicado veintiuna veces en lugar de una plantilla única—: cuando se corrige
+en un sitio y no en los otros veinte, las copias divergen y nadie se da cuenta.
+
+**Verificación final en producción**, las trece páginas:
+
+| Comprobación | Resultado |
+|---|---|
+| HTTP 200 | 13 / 13 |
+| «CONTRATACIÓN» presente | 13 / 13 (3 apariciones por página) |
+| «TIENDA» residual | **0** |
+| `mikanstore.es` residual | **0** |
+
+**Pendiente, y sigue siendo la recomendación de fondo:** convertir cabecera y
+pie en plantillas globales de Elementor. Este barrido ha costado trece
+ediciones; con plantilla única habría sido una.

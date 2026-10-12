@@ -81,6 +81,8 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider, seguimiento, nota de prensa y base de prospección, listos para rellenar. |
 | [`plantillas/copy-promocional.md`](plantillas/copy-promocional.md) | Crítica del texto promocional actual y reescritura en dos versiones: promotores y público. |
 | [`plantillas/gps17-mensajes-votacion.md`](plantillas/gps17-mensajes-votacion.md) | **Campaña de votación de GPS17, día a día.** Todos los mensajes escritos y listos para copiar: apertura, WhatsApp, compañía de baile, prensa, entorno profesional y cierre. |
+| [`plantillas/arte-socios-mensajes.md`](plantillas/arte-socios-mensajes.md) | **Criba de los 289 socios de A.R.T.E.** y mensajes de correo y WhatsApp para buscar agencia. Seis agencias de espectáculos en Cantabria sin contactar. |
+| [`plantillas/arte-socios-prospeccion.csv`](plantillas/arte-socios-prospeccion.csv) | Los 266 socios útiles, clasificados por prioridad, con contacto, correo, teléfono y columnas de seguimiento. |
 
 ## Las 5 cosas que tiene que hacer esta semana
 
