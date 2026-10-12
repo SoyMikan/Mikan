@@ -64,6 +64,13 @@ pero admiten una semana de retraso. La votación, no.
    campaña: ¿un voto por persona o uno al día? ¿hace falta registro o correo?
    ¿se vota por categoría? **Una campaña diseñada sobre el mecanismo
    equivocado se pierde entera.**
+
+   > Verificado el 12 de octubre de 2026: **girandoporsalas.com no ha publicado
+   > todavía ni la mecánica del voto ni la URL de votación.** Solo están las
+   > fechas. Es decir, el dato que determina la campaña no existe aún en
+   > público: habrá que leerlo el día 13-14 o pedirlo por correo a
+   > info@girandoporsalas.com.
+
 3. **Conseguir la URL directa** de su ficha de votación y acortarla.
 4. **Preparar el material antes de que abra**, no después: tres piezas de
    vídeo vertical, un juego de stories y el mensaje de WhatsApp. El día 14 solo
