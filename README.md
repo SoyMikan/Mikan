@@ -80,6 +80,7 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`docs/11-guia-cambios-web.md`](docs/11-guia-cambios-web.md) | Guía paso a paso para aplicar las correcciones de la web sin conocimientos técnicos. Los tres primeros pasos son 30 minutos. |
 | [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider, seguimiento, nota de prensa y base de prospección, listos para rellenar. |
 | [`plantillas/copy-promocional.md`](plantillas/copy-promocional.md) | Crítica del texto promocional actual y reescritura en dos versiones: promotores y público. |
+| [`plantillas/gps17-mensajes-votacion.md`](plantillas/gps17-mensajes-votacion.md) | **Campaña de votación de GPS17, día a día.** Todos los mensajes escritos y listos para copiar: apertura, WhatsApp, compañía de baile, prensa, entorno profesional y cierre. |
 
 ## Las 5 cosas que tiene que hacer esta semana
 

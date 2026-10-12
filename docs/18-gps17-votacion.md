@@ -76,6 +76,10 @@ pero admiten una semana de retraso. La votación, no.
    vídeo vertical, un juego de stories y el mensaje de WhatsApp. El día 14 solo
    hay que pulsar publicar.
 
+   > Ya está hecho: **todos los mensajes de la campaña están escritos y listos
+   > para copiar** en [`plantillas/gps17-mensajes-votacion.md`](../plantillas/gps17-mensajes-votacion.md).
+   > Lo único que falta por rellenar es la URL de votación.
+
 ## 18.5 La campaña, día a día
 
 **Principio rector:** la mayoría de campañas de votación fracasan por pedir mal,
