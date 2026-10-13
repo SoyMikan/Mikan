@@ -126,3 +126,105 @@ qué hacer, porque en el momento no se decide bien.
 **El objetivo de los próximos 90 días no es el éxito. Es volver a estar en
 circulación.** El éxito es un problema de 2028, y es un problema mucho más
 agradable de tener.
+
+## 8.6 El miedo a insistir
+
+Dicho por el artista, a propósito de volver a escribir a una agencia después de
+dos meses de silencio: *«Me da miedo insistir pero creo que no puedo dejar una
+oportunidad.»*
+
+Esto va a volver a aparecer en cada uno de los 266 contactos de
+`plantillas/arte-socios-prospeccion.csv`, así que conviene resolverlo una vez y
+por escrito.
+
+### 1. Esto no es insistir. Insistir es otra cosa
+
+**Insistir es repetir la misma petición sin información nueva.** Lo que tiene
+delante es distinto: hay un hecho que no existía en agosto —la candidatura
+admitida en GPS17— y una fecha de caducidad que no puso él, el 3 de noviembre.
+
+Y hay algo más: **él dijo que escribiría.** Textualmente, el 11 de agosto: «Te
+escribiré a finales de septiembre». En esta conversación, **lo que incumple su
+palabra es no escribir.** No escribir no es prudencia: es quedar como alguien
+que dice que va a hacer algo y no lo hace, que es exactamente la impresión que
+una agencia no debe tener de un artista al que va a confiar fechas.
+
+### 2. Lo que de verdad molesta a una agencia, que no es esto
+
+Esta es la parte útil, porque convierte una sensación en una lista
+comprobable. A una agencia le molesta:
+
+| Lo que molesta | ¿Lo hace su mensaje? |
+|---|---|
+| Escribir sin información nueva | No: GPS17 es nuevo |
+| Escribir cada tres días | No: han pasado dos meses |
+| Pedir en abierto y obligarles a buscar hueco | No: propone 20 minutos y dos franjas |
+| Hacer sentir culpable al que no contesta | No: le da salida explícita |
+| No aceptar un no | No: un recordatorio y se cierra |
+
+**Cero de cinco.** El miedo es real, pero está agarrado al objeto equivocado.
+
+### 3. La aritmética, que es lo que decide
+
+Conviene mirar las dos columnas a la vez, porque por separado engañan:
+
+- **Si escribe y molesta:** el peor caso realista es que no conteste. Las
+  agencias no mantienen listas negras de artistas que escribieron un mensaje
+  correcto después de dos meses. No lo comentan entre ellas. No se acuerdan en
+  enero. **El coste es prácticamente cero.**
+- **Si no escribe:** la probabilidad de que pase algo es **cero exacto**. No
+  estimado: cero.
+
+Está comparando un riesgo pequeño e improbable con una pérdida pequeña pero
+**segura**. Y lleva un año acumulando pérdidas de esas, que es cómo se llega a
+doce meses sin conciertos sin haber tomado nunca la decisión de no trabajar.
+
+### 4. De dónde viene este miedo, que no es un defecto suyo
+
+Su representante se marchó en octubre del año pasado. **Insistir era el trabajo
+de esa persona.** Un mánager se dedica profesionalmente a escribir el tercer
+correo, a llamar en noviembre a quien dijo «hablamos más adelante» en agosto, y
+a hacerlo sin que le cueste nada emocionalmente, porque no es su nombre el que
+está en juego.
+
+Que le resulte incómodo no significa que lo esté haciendo mal. Significa que
+**está haciendo un trabajo que nunca fue el suyo**, y encima con su propio
+nombre delante. Esa incomodidad es información sobre el reparto de tareas, no
+sobre su valía.
+
+Y una observación que conviene tener presente: **las personas que temen resultar
+pesadas nunca son las pesadas.** El que de verdad agobia a las agencias no se
+hace esta pregunta. La sensibilidad que le hace dudar es la misma que hizo que
+sus mensajes del 11 de agosto estuvieran bien escritos.
+
+### 5. La solución práctica: una regla, no una decisión
+
+El problema de fondo es que ahora mismo cada mensaje le obliga a **decidir en
+caliente** si está siendo excesivo, y esa decisión la toma de noche y con el
+ánimo del día. Eso no se arregla con confianza; se arregla con un protocolo
+escrito de antemano:
+
+> **Protocolo de contacto, válido para cualquier agencia o promotor:**
+>
+> 1. **Mensaje inicial.** Con información nueva y una petición concreta.
+> 2. **Silencio: un único recordatorio a los 10 días.** Ni antes ni dos.
+> 3. **Después, ficha cerrada** hasta que exista una novedad real —no hasta que
+>    él se ponga nervioso—. Una novedad es una fecha confirmada, un premio, una
+>    gira, un medio: no es que hayan pasado tres semanas.
+> 4. **Un no se acepta a la primera y se agradece.** Un no claro vale más que un
+>    silencio, porque permite volver dentro de un año sin haber quemado nada.
+
+**Mientras siga el protocolo, no está insistiendo. Y no hace falta que lo
+sienta: basta con que lo cumpla.** El protocolo decide, no el ánimo.
+
+### 6. Y el remedio de verdad
+
+El miedo a insistir con un contacto es, casi siempre, el síntoma de tener **un
+solo contacto**. Cuando una conversación es toda la esperanza, pesa demasiado y
+se escribe mal.
+
+En el CSV hay 266 agencias, seis de ellas en Cantabria y sin contactar nunca.
+**Enviar los otros nueve mensajes de esta semana no es una tarea paralela: es el
+tratamiento.** Con nueve conversaciones abiertas, esta deja de ser la que lo
+decide todo, y el mensaje sale con el tono correcto justamente porque ya no hace
+falta que funcione.
