@@ -83,6 +83,7 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`plantillas/gps17-mensajes-votacion.md`](plantillas/gps17-mensajes-votacion.md) | **Campaña de votación de GPS17, día a día.** Todos los mensajes escritos y listos para copiar: apertura, WhatsApp, compañía de baile, prensa, entorno profesional y cierre. |
 | [`plantillas/arte-socios-mensajes.md`](plantillas/arte-socios-mensajes.md) | **Criba de los 289 socios de A.R.T.E.** y mensajes de correo y WhatsApp para buscar agencia. Seis agencias de espectáculos en Cantabria sin contactar. |
 | [`plantillas/arte-socios-prospeccion.csv`](plantillas/arte-socios-prospeccion.csv) | Los 266 socios útiles, clasificados por prioridad, con contacto, correo, teléfono y columnas de seguimiento. |
+| [`plantillas/retomar-zebra-rocio.md`](plantillas/retomar-zebra-rocio.md) | Mensaje para retomar la conversación con Rocío (Zebra), parada desde agosto, y el criterio de por qué cada parte está escrita así. |
 
 ## Las 5 cosas que tiene que hacer esta semana
 
