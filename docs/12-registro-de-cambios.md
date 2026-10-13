@@ -270,9 +270,16 @@ permanente. Mismo razonamiento para el bloque de cabecera.
 |---|---|---|
 | 12 oct 2026 | **DM a `@santanderfestejos`** (Ayuntamiento de Santander) pidiendo corregir «Milán» → «MIKAN» en el pie del vídeo de TikTok del Orgullo del Río de la Pila, `.../video/7521487556484042006` | **Enviado por el artista.** Pendiente de respuesta |
 
-**Seguimiento previsto:** no reclamar antes de 72 horas. Si a 15 de octubre no
-hay respuesta, enviar la versión de correo formal a la Concejalía de Festejos o
-de Cultura, que deja registro administrativo.
+| 13 oct 2026 | **Mensaje de reconexión a Rocío (Zebra)** por WhatsApp, tras el parón desde el 11 de agosto. Enviado con la versión propia del artista, apoyada en la candidatura a GPS17 y la fecha del 3 de noviembre | **Enviado por el artista.** Pendiente de respuesta |
+
+**Seguimiento previsto (Ayuntamiento):** no reclamar antes de 72 horas. Si a 15
+de octubre no hay respuesta, enviar la versión de correo formal a la Concejalía
+de Festejos o de Cultura, que deja registro administrativo.
+
+**Seguimiento previsto (Zebra):** según el protocolo de `docs/08` §8.6, **un
+único recordatorio el 23 de octubre** y después ficha cerrada hasta el 3 de
+noviembre. El texto del recordatorio está en
+`plantillas/retomar-zebra-rocio.md` §8. Ni antes, ni dos.
 
 **Mientras no esté corregido**, el enlace de prueba que se adjunta a la nota de
 prensa de GPS17 y al dosier de contratación es **el reel de Instagram**, donde
