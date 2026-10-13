@@ -93,8 +93,8 @@ Es decir: él ya sabe hablar con profesionales. Solo hay que mantenerlo.
 > adjuntos → **mikan.es/contratacion**
 >
 > ¿Te vendría bien que hablemos **20 minutos por teléfono** esta semana o la
-> que viene? Me encajan jueves por la mañana o martes a partir de las 16h, pero
-> me adapto a lo que te sirva. Y si ahora tampoco es el momento, dímelo con
+> que viene? Me encajan **jueves o viernes por la mañana**, o el **martes 20 a
+> partir de las 16h**, pero me adapto a lo que te sirva. Y si ahora tampoco es el momento, dímelo con
 > confianza y lo dejo para después del 3 de noviembre, que tendré más que
 > contarte.
 >
@@ -148,12 +148,33 @@ más que un silencio porque permite volver en enero sin haber quemado nada.
 
 ## 7. Cuándo enviarlo
 
-**Mañana miércoles 14 o el jueves 15, entre las 10:00 y las 11:30.** No un
-lunes, no un viernes por la tarde, no a última hora.
+**Hoy martes 13, entre las 16:30 y las 17:30.** Decidido así por una razón de
+calendario, no de superstición: **la votación de GPS17 abre mañana a las 11:00**,
+y este mensaje tiene que llegar antes que la campaña pública de votos. Si ella
+ve primero la petición de votos en redes y después el mensaje, el mensaje parece
+parte de la campaña y pierde todo su peso.
 
-Y no el mismo día que lance la campaña de votación de GPS17: si ella ve primero
-la petición pública de votos y después su mensaje, el mensaje parece parte de la
-campaña. **Primero el mensaje a ella, y la campaña después.**
+Enviarlo mañana por la mañana dejaría media hora entre las dos cosas: demasiado
+poco. Enviándolo hoy por la tarde quedan casi veinticuatro horas, que es
+suficiente para que sean dos cosas distintas.
+
+**Por qué no a mediodía:** a las 13:50 en España el mensaje se lee de pie y se
+aparca. Entre las 16:30 y las 17:30 de un martes es cuando se vacía el pendiente
+del día, y este mensaje necesita leerse entero, no ojearse.
+
+> **Pero si la alternativa es seguir dándole vueltas, se envía ya.** La
+> diferencia entre las 13:50 y las 16:30 es marginal. La diferencia entre hoy y
+> «ya veré» son otras dos semanas, que es exactamente lo que acaba de pasar con
+> el compromiso de finales de septiembre.
+
+### Comprobación de dos minutos antes de enviarlo
+
+El mensaje enlaza `mikan.es/contratacion`, y ella lo va a abrir **en el móvil**.
+La página está hecha con rejillas adaptables y tiene la etiqueta de *viewport*
+correcta, así que responde bien a pantalla pequeña —verificado—, pero conviene
+que él la abra una vez en su propio teléfono antes de mandar el enlace: que los
+tres vídeos cargan, que el PDF del dossier se abre y que no hay nada descolocado.
+Mandar un enlace sin haberlo abierto es la clase de detalle que una agencia nota.
 
 ## 8. Si no contesta
 
