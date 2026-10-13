@@ -9,9 +9,20 @@ version: "1.0"
 # GPS17 · Mensajes listos para publicar
 
 > **Antes de usar nada de esto:** sustituir `[URL]` por el enlace real de
-> votación, que a 12 de octubre **todavía no está publicado**. Y confirmar la
-> mecánica: si resulta que **se puede votar todos los días**, cambia una frase
-> en casi todos los mensajes —está marcada en cada uno con `‹voto diario›`.
+> votación, que estará en `www.girandoporsalas.com` a partir de las **11:00 del
+> 14 de octubre**.
+>
+> **Mecánica confirmada el 13 de octubre** en las bases oficiales (apartado 4):
+> se vota en la propia web de Girando Por Salas, **el voto se identifica por
+> correo electrónico** (las bases descuentan «robots o emails inválidos»), y
+> **los 20 artistas más votados reciben un voto extra** en el comité de
+> selección. No se puede votar más de una vez.
+>
+> **Dos cosas que hay que comprobar a las 11:00 del día 14, antes de publicar
+> nada:** si el voto exige cuenta de **Facebook** —el aviso de cookies de la web
+> lo menciona, y si es así hay que advertirlo en la primera línea de cada
+> mensaje, porque su público está en Instagram— y si el **recuento es público**,
+> que determina si se puede ajustar el esfuerzo día a día.
 
 ---
 
@@ -41,6 +52,23 @@ dentro.
 
 ---
 
+## 0 bis. Una calibración importante antes de empezar
+
+El premio del voto popular es **binario**: los **20 más votados** reciben **un
+voto extra** en el comité. Quedar primero y quedar vigésimo valen igual; quedar
+vigesimoprimero vale lo mismo que quedar último.
+
+Eso significa dos cosas prácticas:
+
+1. **El objetivo es entrar en el top 20, no arrasar.** Si durante la votación el
+   recuento es público y la posición va holgada, se baja la intensidad y se deja
+   de gastar capital social. Pedir siete días seguidos a la misma gente tiene un
+   coste, y conviene no pagarlo de más.
+2. **El comité decide, no el público.** Son siete entidades de Es_Música más
+   DGAEM más cinco expertos externos: del orden de trece personas. El voto
+   popular añade una. Hay que pelearlo, pero sabiendo que **no entrar entre los
+   30 no significaría que su público le falló**.
+
 ## 1. DÍA 14 · Apertura
 
 ### 1.1 Publicación principal (reel o carrusel) — Instagram, Facebook, TikTok
@@ -63,12 +91,12 @@ inercia de toda la semana.
 > 👉 **Cómo se vota (10 segundos, de verdad):**
 > **1.** Entra en 👉 [URL]
 > **2.** Busca **MIKAN**
-> **3.** Pulsa **VOTAR**
+> **3.** Pulsa **VOTAR** y pon tu correo (te lo pide para que no metan votos
+> falsos; no te apunta a nada)
 >
 > Ya está. No hay más. 🙌
 >
-> Hasta el **21 de octubre a las 18:00**. ‹voto diario: *Y se puede votar TODOS
-> LOS DÍAS, así que si te acuerdas mañana, vuelve.* ›
+> Hasta el **21 de octubre a las 18:00**.
 >
 > Y si has llegado hasta aquí: **compártelo**. Un compartido tuyo vale por diez
 > votos míos. 💜
@@ -344,7 +372,6 @@ El último día concentra siempre un pico de votos. Hay que estar encima.
 >
 > 👉 [URL] → busca **MIKAN** → **VOTAR**. 10 segundos.
 >
-> ‹voto diario: *Y si ya votaste, HOY puedes votar otra vez.* ›
 >
 > Gracias a todas las personas que se han movido esta semana. Ha sido
 > emocionante de ver, de verdad 💜

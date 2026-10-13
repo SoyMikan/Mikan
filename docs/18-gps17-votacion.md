@@ -65,11 +65,9 @@ pero admiten una semana de retraso. La votación, no.
    ¿se vota por categoría? **Una campaña diseñada sobre el mecanismo
    equivocado se pierde entera.**
 
-   > Verificado el 12 de octubre de 2026: **girandoporsalas.com no ha publicado
-   > todavía ni la mecánica del voto ni la URL de votación.** Solo están las
-   > fechas. Es decir, el dato que determina la campaña no existe aún en
-   > público: habrá que leerlo el día 13-14 o pedirlo por correo a
-   > info@girandoporsalas.com.
+   > **RESUELTO el 13 de octubre de 2026.** La mecánica está en las bases
+   > oficiales (`girandoporsalas.com/basesgps17.pdf`, apartado 4) y cambia la
+   > calibración de la campaña. Ver 18.4 bis.
 
 3. **Conseguir la URL directa** de su ficha de votación y acortarla.
 4. **Preparar el material antes de que abra**, no después: tres piezas de
@@ -79,6 +77,92 @@ pero admiten una semana de retraso. La votación, no.
    > Ya está hecho: **todos los mensajes de la campaña están escritos y listos
    > para copiar** en [`plantillas/gps17-mensajes-votacion.md`](../plantillas/gps17-mensajes-votacion.md).
    > Lo único que falta por rellenar es la URL de votación.
+
+## 18.4 bis · La mecánica real del voto, y lo que implica
+
+Leídas las bases oficiales (apartado 4, «Selección de artistas»), el texto
+literal es este:
+
+> «La selección de artistas GPS17 […] correrá a cargo de un comité integrado
+> por representantes de las entidades que forman parte de la Junta Directiva de
+> Es_Música: **ACCES, APM, ARTE, PROMUSICAE, UFi, SGAE y AIE**. DGAEM contará
+> igualmente con una persona representante. También se contará con la
+> participación de un comité de expertos compuesto por cinco personas externas.
+>
+> Además, habrá una votación abierta al público desde el 14 de octubre (11:00h)
+> hasta el 21 de octubre de 2026 (18:00h) a través de la web
+> www.girandoporsalas.com. **Los 20 artistas (bandas o solistas) más votados
+> por el público recibirán un voto extra para el proceso de selección.** En caso
+> de detectar votos fraudulentos (robots o emails inválidos), se descontarán del
+> total de votos que tenga el artista.»
+
+Tres consecuencias, y ninguna es menor.
+
+### 1. El objetivo no es maximizar votos: es entrar en el top 20
+
+**El premio es binario.** Quedar vigésimo y quedar primero valen exactamente lo
+mismo: un voto extra. Y quedar vigesimoprimero vale lo mismo que quedar último:
+nada.
+
+Esto cambia la estrategia. No se trata de acumular todos los votos posibles
+hasta el día 21, sino de **asegurar la posición y dejar de gastar capital
+social** cuando esté asegurada. Si el recuento es público durante la votación
+—hay que comprobarlo el día 14—, conviene mirarlo a diario y ajustar el
+esfuerzo. Si va holgado, se baja la intensidad. Si va justo, se aprieta.
+
+### 2. El voto extra es un voto entre catorce
+
+El comité son siete entidades de Es_Música, más DGAEM, más cinco expertos
+externos: **del orden de trece personas**. El voto popular añade **una**.
+
+Es útil y hay que pelearlo, pero conviene decirlo con claridad para proteger la
+cabeza del artista, que es un objetivo explícito de `docs/08`: **la votación no
+decide. Decide el comité.** Volcarse siete días en ella sin perspectiva y luego
+no entrar entre los 30 sería interpretado como un rechazo del público, y no lo
+sería en absoluto.
+
+### 3. Y la consecuencia que de verdad importa: **A.R.T.E. está en el comité**
+
+En la lista de entidades que seleccionan aparece **ARTE** — la misma asociación
+cuyo directorio de socios se ha cribado en
+`plantillas/arte-socios-mensajes.md`.
+
+Es decir: las agencias a las que toca escribir esta semana pertenecen a una de
+las entidades que vota quién entra en GPS17. **No son dos gestiones separadas:
+son la misma.** Y reordena la prioridad de los correos del grupo A1, los seis de
+Cantabria, que pasan a tener un motivo adicional y perfectamente honesto para
+escribirse ahora: el artista está en la lista de aprobados de un circuito que su
+propia asociación selecciona.
+
+No se trata de pedirles el voto —eso sería torpe y contraproducente—, sino de
+que **sepan que existe** antes del 3 de noviembre.
+
+### 4. Detalles operativos confirmados
+
+- **Dónde se vota:** en `www.girandoporsalas.com`, no en una plataforma externa.
+- **Hace falta un correo válido.** Las bases hablan de descontar «robots o
+  emails inválidos», así que el voto se identifica por correo electrónico. Esto
+  sube la fricción: hay que decirlo en los mensajes para que nadie abandone a
+  mitad.
+- **El aviso de cookies de la web menciona Facebook** «para los procesos de
+  votaciones». Si el voto exige cuenta de Facebook, es un problema real: su
+  público está en Instagram y TikTok. **Hay que comprobarlo a las 11:00 del día
+  14 antes de lanzar la campaña**, y si es así, el mensaje tiene que advertirlo
+  en la primera línea.
+- **Los votos fraudulentos se restan.** Comprar votos no solo descalifica
+  moralmente: resta aritméticamente.
+- **Estado de la ficha:** en el panel del artista, **verde** significa
+  inscripción aprobada y en evaluación; **granate**, a partir del 3 de
+  noviembre, significa seleccionado. Conviene comprobar que está en verde.
+
+### 5. Un punto de las bases que conviene conocer
+
+Las bases excluyen a «aquellos artistas que hayan tenido una relevante, notoria y
+acreditada carrera **en otros grupos**», sujetos a aprobación del jurado. Dice
+«en otros grupos», y MIKAN es solista con nombre propio, así que no debería
+aplicar. Pero si el comité se lo plantease por lo de RTVE o Universal, la
+respuesta es sencilla y está a favor: la trayectoria es propia, no heredada de
+una banda anterior.
 
 ## 18.5 La campaña, día a día
 
