@@ -48,23 +48,36 @@ después de comprobar.
 
 ---
 
-## 19.2 Arquitectura elegida
+## 19.2 Arquitectura elegida (móvil Android)
 
-El correo de `contratacion@mikan.es` vive en el **webmail del dominio**, pero se
-recibe también en **Gmail**. El push al móvil lo da **Gmail**, que es quien
-tiene app con notificación fiable por etiqueta. Por tanto:
+El móvil es **Android**, y en Android el push fiable lo da la **app de Gmail**,
+que notifica **por etiqueta** y con sonido propio —cosa que la app del webmail
+no hace bien—. El correo de `contratacion@mikan.es` vive en el webmail del
+dominio pero ya se recibe también en Gmail, así que no hay que mover la cuenta a
+ningún sitio. El diseño, lo más limpio posible, son **dos piezas**:
 
 | Pieza | Dónde | Papel |
 |---|---|---|
-| **Filtro principal** | Gmail | Detecta el aviso, lo etiqueta, lo marca importante y lo destaca |
-| **Notificación push** | App de Gmail en el móvil | Avisa en el momento, con sonido propio |
-| **Regla espejo** | Webmail del dominio | Red de seguridad: marca y archiva una copia. **Opcional y con una salvedad** (§19.6) |
+| **Filtro** | Gmail | Detecta el aviso, lo etiqueta, lo marca importante y lo destaca |
+| **Notificación push** | App de Gmail en Android | Avisa en el momento, con sonido propio por etiqueta |
 
-> **Salvedad importante de orden.** Si Gmail recoge el correo del webmail por
-> **POP**, una regla en el webmail que **mueva** el mensaje fuera de la bandeja
-> de entrada **antes** de que Gmail lo recoja hará que Gmail —y el push— no lo
-> vean nunca. Por eso el filtro principal va en Gmail, y la regla del webmail,
-> si se pone, **solo marca o copia, nunca saca de la bandeja**. Detalle en §19.6.
+Y **una tercera pieza solo si hace falta**: si Gmail recoge el correo del webmail
+por **POP** (consulta periódica), estos avisos pueden tardar de 15 min a 1 h en
+aparecer, lo que para una alerta de seguridad es demasiado. En ese caso —y solo
+en ese caso— se añade una regla de **reenvío** en el webmail que empuje estos
+avisos a Gmail al instante (§19.6).
+
+> **El principio que lo mantiene limpio:** el webmail **reenvía**, nunca se usa
+> para «mover» el correo. Un reenvío ocurre en la entrega, antes de que Gmail
+> recoja nada, así que no hay forma de que el mensaje «desaparezca» antes del
+> push. Si en vez de reenviar se moviera el correo a una carpeta del webmail,
+> una recogida por POP podría no verlo nunca. Por eso: reenviar sí, mover no.
+
+**Cómo saber si tienes retardo (POP) o entrega instantánea:** en Gmail
+(ordenador) → **Ajustes → Cuentas e importación → «Consultar el correo de otras
+cuentas»**. Si ahí aparece `contratacion@mikan.es`, es **POP** y conviene añadir
+la regla de §19.6. Si **no** aparece —porque el webmail ya reenvía todo a
+Gmail—, la entrega es instantánea y con las dos piezas basta.
 
 ---
 
@@ -126,33 +139,24 @@ Pulsar **Crear filtro**.
 
 ---
 
-## 19.4 El push al móvil
+## 19.4 El push al móvil (Android)
 
-### Android (app de Gmail)
+Esta es la pieza que convierte el filtro en un aviso que suena. En la **app de
+Gmail** del Android:
 
 1. App de Gmail → menú ☰ → **Ajustes** → tocar la cuenta `contratacion@mikan.es`.
-2. **Notificaciones** → activarlas (**Todas** o **Alta prioridad**).
+2. **Notificaciones** → activarlas (**Todas** o **Alta prioridad**; con el
+   filtro marcando estos avisos como importantes, «Alta prioridad» basta y deja
+   fuera el ruido de booking).
 3. Volver a **Ajustes** → **Administrar etiquetas** → `⚠ Seguridad-Instagram`:
-   - **Sincronizar mensajes:** activado.
+   - **Sincronizar mensajes:** activado *(sin esto la etiqueta no notifica)*.
    - **Notificaciones de etiqueta:** activado.
    - Elegir un **sonido distinto** del general. Que el aviso suene distinto a un
-     correo de booking cualquiera es la mitad del valor de todo esto.
+     correo de booking cualquiera es la mitad del valor de todo esto: lo
+     reconoces sin mirar la pantalla.
 
-Resultado: solo estos avisos disparan ese sonido, y lo hacen en el momento.
-
-### iPhone (app de Gmail)
-
-La app de Gmail en iOS **no** permite notificación por etiqueta; la
-configuración es por cuenta. La vía equivalente:
-
-1. App de Gmail → **Ajustes** → cuenta `contratacion@mikan.es` → **Notificaciones**
-   → **Alta prioridad**.
-2. Como el filtro ya marca estos avisos **como importantes**, entran en «alta
-   prioridad» y notifican, mientras el resto del ruido no.
-
-Si se quiere un aviso aún más separado en iPhone, la alternativa es añadir la
-cuenta a la **app Mail de Apple** con una regla/VIP, pero para el objetivo
-—enterarse en el momento— «Alta prioridad» en Gmail es suficiente.
+Resultado: solo estos avisos disparan ese sonido, en el momento. El resto del
+correo de contratación notifica como siempre, o no notifica, según lo tengas.
 
 ---
 
@@ -174,26 +178,31 @@ Un aviso sin un protocolo de respuesta es solo ruido nuevo. Cuando suene:
 
 ---
 
-## 19.6 La regla espejo en el webmail (opcional)
+## 19.6 La regla del webmail (solo si hay retardo por POP)
 
-Solo si se quiere una copia marcada también en el webmail del dominio. **Con la
-salvedad de §19.2:** no debe sacar el mensaje de la bandeja de entrada si Gmail
-lo recoge de ahí por POP.
+Si la comprobación de §19.2 dio que Gmail recoge por **POP**, estos avisos
+llegarían con retardo. Esta regla lo arregla reenviándolos a Gmail **al
+instante**, sin esperar a la siguiente recogida. Si la entrega ya era
+instantánea (el webmail reenvía todo a Gmail), **este paso no hace falta**.
 
-En el webmail → **Ajustes → Filtros / Reglas → Nueva regla**:
+En el webmail del dominio → **Ajustes → Filtros / Reglas → Nueva regla**:
 
-- **Si** `De` contiene `instagram.com` **y** (`Asunto` o `Cuerpo`) contiene
-  `inicio de sesión` o `login` o `secure your account`,
-- **Entonces:**
-  - Marcar / señalar *(flag)* el mensaje. ✔
-  - Opcional: copiar a una carpeta `Seguridad-Instagram`. Usar **«copiar a»**, no
-    **«mover a»**, para que el original siga en la bandeja y Gmail lo recoja.
-  - **No** activar reenvío automático ni borrado.
+- **Si** `De` contiene `instagram.com` **y** (`Asunto` **o** `Cuerpo`) contiene
+  `inicio de sesión` **o** `login` **o** `secure your account`,
+- **Entonces: Reenviar a** la dirección de Gmail donde ya recibes el correo.
+  - **Dejar también una copia en la bandeja del webmail** (casi todos los
+    webmails ofrecen «reenviar **y** conservar copia»; si da a elegir, conservar
+    copia).
+  - **No** marcar «mover a carpeta» ni «borrar»: reenviar sí, mover no (§19.2).
 
-Si Gmail **no** recoge por POP sino que el webmail **reenvía** a Gmail, entonces
-sí se puede mover a carpeta sin romper el push, porque el reenvío ocurre en la
-entrega, antes de la regla. Ante la duda, dejar la regla del webmail solo en
-«marcar» y confiar el push a Gmail.
+Con esto el aviso entra en Gmail en segundos, el filtro de §19.3 lo etiqueta y
+la app de Android lo notifica. El webmail queda como punto de captura en el
+origen —que se dispara con todos los mensajes, no dependa de Gmail— y Gmail como
+motor de push.
+
+> Esta regla reenvía **solo los avisos de seguridad de Instagram**, no todo el
+> correo de contratación. Es deliberado: no cambia cómo recibes el resto, solo
+> acelera la clase de mensaje que no puede esperar una hora.
 
 ---
 
