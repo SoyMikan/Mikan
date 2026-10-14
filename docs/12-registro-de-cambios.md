@@ -295,6 +295,18 @@ Primero se cierra la corrección, después se agradece, y solo entonces se pide.
 **Y el pie erróneo queda registrado literal en `docs/16-credenciales.md`**, así
 que cuando se corrija no se pierde la constancia de lo que decía.
 
+| 14 oct 2026 | **Vigilancia del buzón de contratación ante avisos de seguridad de Instagram.** A raíz de un aviso de inicio de sesión recibido en `contratacion@mikan.es`, se documenta un filtro + alerta que **detecta y notifica al móvil** estos correos, sin automatizar ningún clic. Procedimiento completo y copiable en `docs/19-seguridad-cuenta-instagram.md` | **Documentado.** Pendiente de aplicarlo en la cuenta (Gmail) por el titular |
+
+**Criterio de la decisión (Instagram):** se descartó expresamente automatizar el
+clic en «Asegura tu cuenta» / «No he sido yo». Un proceso que pulsa enlaces con
+token de correos «de seguridad» no distingue un aviso real de una imitación, y un
+acceso automatizado desde servidor desconocido es justo lo que hace a Instagram
+bloquear la cuenta (`docs/17` §17.1). La automatización que sí se monta es la que
+**avisa**, no la que **actúa**: el criterio de qué pulsar se deja en manos de una
+persona, que es el único punto donde se separa lo legítimo de lo falso. La
+corrección de fondo —contraseña única y 2FA con app— apaga los avisos en origen y
+está en `docs/19` §19.7.
+
 ## 12.9 Página de contratación · montada y publicada (12 oct 2026)
 
 Lo que faltaba de la petición «escribe todo y móntalo»: el texto estaba escrito

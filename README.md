@@ -78,6 +78,7 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`docs/09-auditoria-web.md`](docs/09-auditoria-web.md) | Auditoría de mikan.es: 17 correcciones priorizadas, con los enlaces exactos. Cuatro enlaces están rotos, incluido el de contratación. |
 | [`docs/10-inventario-audiovisual.md`](docs/10-inventario-audiovisual.md) | Inventario de vídeos con cifras reales, qué pieza usar en cada circuito y el guion de montaje del reel de booking. |
 | [`docs/11-guia-cambios-web.md`](docs/11-guia-cambios-web.md) | Guía paso a paso para aplicar las correcciones de la web sin conocimientos técnicos. Los tres primeros pasos son 30 minutos. |
+| [`docs/19-seguridad-cuenta-instagram.md`](docs/19-seguridad-cuenta-instagram.md) | Filtro + alerta al móvil para los avisos de seguridad de Instagram que llegan a `contratacion@mikan.es`, y la corrección de fondo (2FA). Detecta y avisa; no automatiza ningún clic. |
 | [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider, seguimiento, nota de prensa y base de prospección, listos para rellenar. |
 | [`plantillas/copy-promocional.md`](plantillas/copy-promocional.md) | Crítica del texto promocional actual y reescritura en dos versiones: promotores y público. |
 | [`plantillas/gps17-mensajes-votacion.md`](plantillas/gps17-mensajes-votacion.md) | **Campaña de votación de GPS17, día a día.** Todos los mensajes escritos y listos para copiar: apertura, WhatsApp, compañía de baile, prensa, entorno profesional y cierre. |
