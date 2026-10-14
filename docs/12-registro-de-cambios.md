@@ -295,7 +295,7 @@ Primero se cierra la corrección, después se agradece, y solo entonces se pide.
 **Y el pie erróneo queda registrado literal en `docs/16-credenciales.md`**, así
 que cuando se corrija no se pierde la constancia de lo que decía.
 
-| 14 oct 2026 | **Vigilancia del buzón de contratación ante avisos de seguridad de Instagram.** A raíz de un aviso de inicio de sesión recibido en `contratacion@mikan.es`, se documenta un filtro + alerta que **detecta y notifica al móvil** estos correos, sin automatizar ningún clic. Procedimiento completo y copiable en `docs/19-seguridad-cuenta-instagram.md` | **Documentado.** Pendiente de aplicarlo en la cuenta (Gmail) por el titular |
+| 14 oct 2026 | **Vigilancia del buzón de contratación ante avisos de seguridad de Instagram.** A raíz de un aviso de inicio de sesión recibido en `contratacion@mikan.es`, se documenta un método que **detecta y notifica al móvil** estos correos, sin automatizar ningún clic. Como el buzón vive en el **webmail de IONOS** (no es Gmail), la vía elegida es una **regla en IONOS que reenvía solo esos avisos a `angelfired@gmail.com`**, que ya está en el móvil Android y notifica. Procedimiento paso a paso en `docs/19-seguridad-cuenta-instagram.md` | **Documentado con pasos de IONOS.** Pendiente de crear la regla en el webmail por el titular |
 
 **Criterio de la decisión (Instagram):** se descartó expresamente automatizar el
 clic en «Asegura tu cuenta» / «No he sido yo». Un proceso que pulsa enlaces con
