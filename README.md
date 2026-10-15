@@ -78,6 +78,14 @@ limpio que existe en el mercado español. Y hoy no puede ni presentarse, porque
 | [`docs/09-auditoria-web.md`](docs/09-auditoria-web.md) | Auditoría de mikan.es: 17 correcciones priorizadas, con los enlaces exactos. Cuatro enlaces están rotos, incluido el de contratación. |
 | [`docs/10-inventario-audiovisual.md`](docs/10-inventario-audiovisual.md) | Inventario de vídeos con cifras reales, qué pieza usar en cada circuito y el guion de montaje del reel de booking. |
 | [`docs/11-guia-cambios-web.md`](docs/11-guia-cambios-web.md) | Guía paso a paso para aplicar las correcciones de la web sin conocimientos técnicos. Los tres primeros pasos son 30 minutos. |
+| [`docs/12-registro-de-cambios.md`](docs/12-registro-de-cambios.md) | Registro de todos los cambios aplicados en la web, su verificación en producción y las gestiones externas con sus fechas de seguimiento. |
+| [`docs/13-pagina-contratacion.md`](docs/13-pagina-contratacion.md) | Texto completo de la página de contratación, bloque a bloque. Publicada en mikan.es/contratacion/ |
+| [`docs/14-rider-tecnico.md`](docs/14-rider-tecnico.md) | Análisis comparado de los riders de Fangoria y OBK, y el rider de MIKAN en tres formatos de show. |
+| [`docs/15-caches.md`](docs/15-caches.md) | Cachés de mercado, estructura de costes, umbral de rentabilidad y suelo de negociación por formato. |
+| [`docs/16-credenciales.md`](docs/16-credenciales.md) | Jerarquía de credenciales en tres niveles y cuáles usar en cada circuito. Incluye el crédito a corregir en el vídeo del Ayuntamiento. |
+| [`docs/17-instagram.md`](docs/17-instagram.md) | Arquitectura del perfil: publicaciones fijadas, destacados y bio. |
+| [`docs/18-gps17-votacion.md`](docs/18-gps17-votacion.md) | **GPS17: fase real, mecánica del voto y campaña.** Los 20 más votados reciben un voto extra en el comité, y A.R.T.E. está en ese comité. |
+| [`docs/19-faro-santander.md`](docs/19-faro-santander.md) | **Ayudas a la Creación Faro Santander.** Cumple los requisitos, pero el encaje de perfil es el problema. Veredicto y alternativa de coste cero. |
 | [`plantillas/`](plantillas/) | Correos de booking, one-sheet, rider, seguimiento, nota de prensa y base de prospección, listos para rellenar. |
 | [`plantillas/copy-promocional.md`](plantillas/copy-promocional.md) | Crítica del texto promocional actual y reescritura en dos versiones: promotores y público. |
 | [`plantillas/gps17-mensajes-votacion.md`](plantillas/gps17-mensajes-votacion.md) | **Campaña de votación de GPS17, día a día.** Todos los mensajes escritos y listos para copiar: apertura, WhatsApp, compañía de baile, prensa, entorno profesional y cierre. |
