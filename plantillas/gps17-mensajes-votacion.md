@@ -69,6 +69,62 @@ Eso significa dos cosas prácticas:
    popular añade una. Hay que pelearlo, pero sabiendo que **no entrar entre los
    30 no significaría que su público le falló**.
 
+## 0 ter. MECÁNICA REAL, verificada el 15 de octubre
+
+Con la votación ya abierta, la web de GPS publica esta instrucción, literal:
+
+> «Ya puedes votar a tus artistas favoritos. Para votar, **es necesario acceder
+> a la web, hacer clic en "Acceder / Administrar" y completar el registro como
+> "Público general"**. Cada persona podrá **seleccionar hasta diez artistas
+> favoritos**.»
+
+Esto obliga a reescribir la petición, por dos motivos de peso opuesto.
+
+### El problema: hay un muro de registro
+
+**No se vota con un clic. Hay que crearse una cuenta.** Registro como «Público
+general», correo, contraseña, y entonces buscar al artista en la pestaña
+**Bandas** y pulsar VOTAR.
+
+Eso no son diez segundos: son dos o tres minutos. Y es **el punto exacto donde
+se pierde a la gente**: alguien que recibe «vótame» pulsa el enlace, se
+encuentra una pantalla de acceso que no esperaba, piensa «ahora no» y no vuelve.
+
+**Consecuencia: si el mensaje no avisa del registro, el enlace trabaja en
+contra.** Hay que avisar *antes* de que lo pulsen, y decir cuánto cuesta. La
+gente perdona un trámite de dos minutos si se lo anuncias; no perdona una
+sorpresa.
+
+### El regalo: se puede votar a diez artistas
+
+**Cada persona vota hasta diez grupos, un voto por grupo.** Esto es lo mejor que
+le ha pasado a esta campaña y hay que ponerlo en todos los mensajes, porque
+**elimina la única objeción real**.
+
+Mucha gente de su entorno conoce a otros músicos. Ante un «vótame», la duda
+silenciosa es «ya le dije que sí a otro». Aquí no existe: puede votar a MIKAN
+**y** a los otros nueve. El voto no se le quita a nadie.
+
+Convierte la petición de «hazme un favor» en «te sobran nueve votos».
+
+### Y una cosa que no se puede votar más de una vez
+
+Un voto por grupo y por persona. Nada de volver cada día.
+
+### Lo que hay que comprobar dentro de su cuenta
+
+El listado de bandas está detrás del acceso, así que esto solo puede verlo él:
+
+1. **Que MIKAN aparece en la pestaña Bandas** y con qué nombre exacto, para
+   poder decírselo a la gente tal cual lo van a leer.
+2. **Si el recuento de votos es visible.** Si lo es, se mira a diario y se
+   calibra el esfuerzo contra el top 20.
+
+> **Aviso sobre la página `girandoporsalas.com/votacion/`:** su texto está
+> desactualizado —habla del 5 al 11 de octubre y de un jurado de 8, que son
+> datos de la edición anterior—. Para fechas y comité, manda el PDF de las
+> bases GPS17; esa página solo sirve para ver cómo funciona la pantalla de voto.
+
 ## 1. DÍA 14 · Apertura
 
 ### 1.1 Publicación principal (reel o carrusel) — Instagram, Facebook, TikTok
@@ -160,6 +216,50 @@ mejor.
 > *[sticker de enlace]*
 
 ---
+
+## 1 bis. MENSAJE DE RECTIFICACIÓN · para enviar en cuanto se detecte el fallo
+
+Si el primer mensaje solo **informó** de que participaba sin dar los pasos
+—que es el error más común y el que más votos cuesta—, hay que reenviar. No es
+insistir: es que la primera vez faltaba la mitad de la información.
+
+### Versión redes / stories
+
+> Vale, me he explicado fatal 😅 Os lo pongo claro, que varios me habéis
+> preguntado cómo se vota 👇
+>
+> **Sí hay que registrarse. Son 2 minutos. Y luego puedes votar a 10 artistas,
+> no solo a mí.**
+>
+> **1.** Entra en 👉 [URL]
+> **2.** Arriba, **«ACCEDER / ADMINISTRAR»** → **Crear una cuenta** → elige
+> **«Público general»**
+> **3.** Ve a la pestaña **BANDAS**, busca **MIKAN** y pulsa **VOTAR**
+> **4.** Y ya que estás, **te quedan 9 votos más** para quien tú quieras 💜
+>
+> Hasta el **martes 21 a las 18:00**.
+>
+> Sé que no es un clic y que os estoy pidiendo dos minutos de verdad. Por eso os
+> lo pido así, de frente: esos dos minutos son seis conciertos. 🫶
+
+### Versión WhatsApp
+
+> Oye [NOMBRE], te mandé lo de la votación a medias y varios me habéis
+> preguntado cómo se hace. Te lo pongo en orden:
+>
+> 1️⃣ [URL]
+> 2️⃣ Arriba a la derecha: «ACCEDER / ADMINISTRAR» → Crear cuenta → **Público general**
+> 3️⃣ Pestaña **BANDAS** → busca **MIKAN** → **VOTAR**
+>
+> Son 2 minutos porque hay que registrarse, no te voy a engañar. Y puedes votar
+> hasta 10 artistas, así que no «gastas» el voto en mí.
+>
+> Gracias de verdad 🙏
+
+**Por qué funciona reconocer el fallo:** «me he explicado fatal» es desarmante,
+genera respuesta y justifica el segundo mensaje sin que parezca insistencia. Y
+decir «no te voy a engañar, son 2 minutos» convierte la fricción en honestidad
+en lugar de en abandono.
 
 ## 2. DÍA 15 · WhatsApp, uno a uno
 
